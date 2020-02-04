@@ -6,33 +6,29 @@ class UserListContainer extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            users: []
+            users: {}
         }
     }
 
     componentDidMount() {
-        let that = this;
-        let request = new Request('http://localhost:8080/user/selectUserByName?name=faith', {
+        var that = this;
+        var request = new Request('http://localhost:8080/user/selectUserByName?name=faith', {
             method: 'GET',
-            mode:'cors',
+            mode: 'cors',
             headers: {'Content-Type': 'application/json'},
 
         });
         fetch(request).then(function (res) {
-            if (!res.ok) {
-                return res.text().then(result => Promise.reject(new Error(result)));
-            }
-            return res.json();
-        }).then(function (data) {
-            that.setState({users: data},);
+            res.json().then(function (data) {
+                that.setState({users: data})
+            });
         });
     }
 
     render() {
         return (
-            /* 通过props传递user*/
-            <UserList users={this.state.users}/>
-        );
+            this.state.users.userId ? <UserList users={this.state.users}/> : "aaaaaaaaaaaaaaaa"
+        )
     }
 }
 
