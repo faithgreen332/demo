@@ -6,8 +6,47 @@
         usr
     </sql>
     <sql id="BASE_COLUMN">
-        userId,userName,psw,tel,userDesc
+        userId, userName, psw, tel, userDesc
     </sql>
+
+    <insert id="insertUser" parameterType="com.example.demo.vo.User">
+        insert into
+        <include refid="BASE_TABLE"/>
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="userId!=null">
+                userId,
+            </if>
+            <if test="userName!=null">
+                userName,
+            </if>
+            <if test="psw!=null">
+                psw,
+            </if>
+            <if test="tel!=null">
+                tel,
+            </if>
+            <if test="userDesc!=null">
+                userDesc,
+            </if>
+        </trim>
+        <trim prefix="values(" suffix=")" suffixOverrides=",">
+            <if test="userId!=null">
+                #{userId,jdbcType=VARCHAR},
+            </if>
+            <if test="userName!=null">
+                #{userName,jdbcType=VARCHAR},
+            </if>
+            <if test="psw!=null">
+                #{psw,jdbcType=VARCHAR},
+            </if>
+            <if test="tel!=null">
+                #{tel,jdbcType=VARCHAR},
+            </if>
+            <if test="userDesc!=null">
+                #{userDesc,jdbcType=VARCHAR},
+            </if>
+        </trim>
+    </insert>
 
     <select id="selectUsers" resultType="com.example.demo.vo.User">
         SELECT

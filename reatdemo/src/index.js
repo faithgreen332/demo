@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './style.css';
-import PostList from './postList/postList';
 import * as serviceWorker from './serviceWorker';
 import './icons';
 // import App from './app/portals/app.js';
