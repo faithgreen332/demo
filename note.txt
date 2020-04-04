@@ -1,0 +1,46 @@
+1.fastjson 和 Gson
+    fastjson是阿里的，Gson是Google的，
+    使用fastJson序列化空值时需要加入第二个参数，分别有list、map、Object等,根据需要自己选择
+    String jsonResult = JSON.toJSONString(carService.selectCars(), SerializerFeature.WriteNullListAsEmpty)
+    替换json字符串中key也被加上的双引号：json.replaceAll("\"(\\w+)\"(\\s*:\\s*)", "$1$2");
+
+    Gson 序列化null 值需要如下实例化对象，否则直接new Gson（）
+    Gson gson = new GsonBuilder().serializeNulls().create();
+    return gson.toJson(carService.selectCars());
+
+2.@Resource 和 @Autowire
+    注入注解用Resource，是jkd自带的注解，先用名称查找，名称找不到了再用类型查找，相当于@Autowire+@Qualifier("carService)
+
+3.服务器配置cors，让前端可以实现跨域请求
+    有三种方法
+    a.在实现WebMvcConfigurer类的注解类（带@Configuration注解)里重写addCorsMappings(CorsRegistry registry)，见启动类同目录/config/CorsConfig
+    b.在请求方法里加注解CrossOrigin
+    c.家过滤器，在每个请求头里加cors请求头，见启动类同目录/config/CorsFilter
+
+4.mybatis
+    insert/update/delete操作返回操作成功的条数
+    mapper里没有没有else，要实现else功能可以用choose/when/otherwise
+    mytabis是使用OGNL表达式来解析的，‘y'会被解析成char，不是string，注意mapper里的判断条件
+
+5.springboot引入bean的两种方式
+    a、注解方式是在注解类下的方法上加@Bean注解，方法名就是id
+    b、在resource下新建bean配置文件，在启动类处加注解@ImportResource(locations="路径")注解
+
+6.在springboot中排除logback的两种方式
+    springboot默认使用logback框架，那么我们想用log4j2怎么办呢？排除logback框架，有两种排除方法
+    a、在根下统一排除
+        <dependency>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter</artifactId>
+                    <exclusions>
+                        <exclusion>
+                            <groupId>org.springframework.boot</groupId>
+                            <artifactId>spring-boot-starter-logging</artifactId>
+                        </exclusion>
+                    </exclusions>
+                </dependency>
+    b、在starter-web上排除，因为pom加载依赖是从上往下加载的，所有把starter-web放在第一个dependengcy，此项目用此方法
+    如果项目启动报错
+    Logging system failed to initialize using configuration from 'classpath:log4j2.xml'
+    java.lang.IllegalStateException: Logback configuration error detected:
+    说明logback没有排除干净

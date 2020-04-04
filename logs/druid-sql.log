@@ -1,0 +1,2289 @@
+[2020-03-27 12:10:53] DEBUG 137 statementLog - {conn-10001, pstmt-20000} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:10:53] DEBUG 137 statementLog - {conn-10001, pstmt-20000} Parameters : []
+[2020-03-27 12:10:53] DEBUG 137 statementLog - {conn-10001, pstmt-20000} Types : []
+[2020-03-27 12:10:53] DEBUG 137 statementLog - {conn-10001, pstmt-20000} executed. 24.043881 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:10:53] DEBUG 137 statementLog - {conn-10001, pstmt-20000} closed
+[2020-03-27 12:10:53] DEBUG 137 statementLog - {conn-10001, pstmt-20001} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:10:53] DEBUG 137 statementLog - {conn-10001, pstmt-20001} Parameters : []
+[2020-03-27 12:10:53] DEBUG 137 statementLog - {conn-10001, pstmt-20001} Types : []
+[2020-03-27 12:10:53] DEBUG 137 statementLog - {conn-10001, pstmt-20001} executed. 2.16273 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:10:53] DEBUG 137 statementLog - {conn-10001, pstmt-20001} closed
+[2020-03-27 12:11:13] DEBUG 137 statementLog - {conn-10001, pstmt-20002} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:11:13] DEBUG 137 statementLog - {conn-10001, pstmt-20002} Parameters : []
+[2020-03-27 12:11:13] DEBUG 137 statementLog - {conn-10001, pstmt-20002} Types : []
+[2020-03-27 12:11:13] DEBUG 137 statementLog - {conn-10001, pstmt-20002} executed. 3.623179 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:11:13] DEBUG 137 statementLog - {conn-10001, pstmt-20002} closed
+[2020-03-27 12:11:13] DEBUG 137 statementLog - {conn-10001, pstmt-20003} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:11:13] DEBUG 137 statementLog - {conn-10001, pstmt-20003} Parameters : []
+[2020-03-27 12:11:13] DEBUG 137 statementLog - {conn-10001, pstmt-20003} Types : []
+[2020-03-27 12:11:13] DEBUG 137 statementLog - {conn-10001, pstmt-20003} executed. 1.927641 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:11:13] DEBUG 137 statementLog - {conn-10001, pstmt-20003} closed
+[2020-03-27 12:13:15] DEBUG 137 statementLog - {conn-10001, pstmt-20000} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:13:15] DEBUG 137 statementLog - {conn-10001, pstmt-20000} Parameters : []
+[2020-03-27 12:13:15] DEBUG 137 statementLog - {conn-10001, pstmt-20000} Types : []
+[2020-03-27 12:13:15] DEBUG 137 statementLog - {conn-10001, pstmt-20000} executed. 15.182623 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:13:15] DEBUG 137 statementLog - {conn-10001, pstmt-20000} closed
+[2020-03-27 12:13:15] DEBUG 137 statementLog - {conn-10001, pstmt-20001} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:13:15] DEBUG 137 statementLog - {conn-10001, pstmt-20001} Parameters : []
+[2020-03-27 12:13:15] DEBUG 137 statementLog - {conn-10001, pstmt-20001} Types : []
+[2020-03-27 12:13:15] DEBUG 137 statementLog - {conn-10001, pstmt-20001} executed. 7.787361 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:13:18] DEBUG 137 statementLog - {conn-10001, pstmt-20001} closed
+[2020-03-27 12:14:39] DEBUG 137 statementLog - {conn-10001, pstmt-20000} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:14:39] DEBUG 137 statementLog - {conn-10001, pstmt-20000} Parameters : []
+[2020-03-27 12:14:39] DEBUG 137 statementLog - {conn-10001, pstmt-20000} Types : []
+[2020-03-27 12:14:39] DEBUG 137 statementLog - {conn-10001, pstmt-20000} executed. 21.064102 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:14:39] DEBUG 137 statementLog - {conn-10001, pstmt-20000} closed
+[2020-03-27 12:14:39] DEBUG 137 statementLog - {conn-10001, pstmt-20001} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:14:39] DEBUG 137 statementLog - {conn-10001, pstmt-20001} Parameters : []
+[2020-03-27 12:14:39] DEBUG 137 statementLog - {conn-10001, pstmt-20001} Types : []
+[2020-03-27 12:14:39] DEBUG 137 statementLog - {conn-10001, pstmt-20001} executed. 2.211794 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:14:39] DEBUG 137 statementLog - {conn-10001, pstmt-20001} closed
+[2020-03-27 12:14:39] DEBUG 137 statementLog - {conn-10002, pstmt-20002} created. insert into
+         
+        carTest
+     
+         ( carId, carName, ctime, carDesc ) 
+         values( ?,
+                    
+                ?,
+                
+                        ?,
+                    
+                
+                    ? )
+[2020-03-27 12:14:39] DEBUG 137 statementLog - {conn-10002, pstmt-20002} Parameters : [0, yahmaha, 2020-03-27T04:14:35.248Z, ]
+[2020-03-27 12:14:39] DEBUG 137 statementLog - {conn-10002, pstmt-20002} Types : [INTEGER, VARCHAR, VARCHAR, VARCHAR]
+[2020-03-27 12:14:39] ERROR 152 statementLogError - {conn-10002, pstmt-20002} execute error. insert into
+         
+        carTest
+     
+         ( carId, carName, ctime, carDesc ) 
+         values( ?,
+                    
+                ?,
+                
+                        ?,
+                    
+                
+                    ? ) com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'ctime' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104) ~[mysql-connector-java-8.0.19.jar:8.0.19]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.19.jar:8.0.19]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370) ~[mysql-connector-java-8.0.19.jar:8.0.19]
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3051) ~[druid-1.1.9.jar:1.1.9]
+	at com.alibaba.druid.wall.WallFilter.preparedStatement_execute(WallFilter.java:619) ~[druid-1.1.9.jar:1.1.9]
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3049) ~[druid-1.1.9.jar:1.1.9]
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440) ~[druid-1.1.9.jar:1.1.9]
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3049) ~[druid-1.1.9.jar:1.1.9]
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_execute(FilterAdapter.java:1080) ~[druid-1.1.9.jar:1.1.9]
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3049) ~[druid-1.1.9.jar:1.1.9]
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:167) ~[druid-1.1.9.jar:1.1.9]
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:498) ~[druid-1.1.9.jar:1.1.9]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184) ~[mybatis-3.5.3.jar:3.5.3]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_171]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at com.sun.proxy.$Proxy89.insert(Unknown Source) ~[?:?]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:271) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:93) ~[mybatis-3.5.3.jar:3.5.3]
+	at com.sun.proxy.$Proxy90.insertCars(Unknown Source) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_171]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366) [spring-tx-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99) [spring-tx-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:72) [druid-1.1.9.jar:1.1.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) [spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at com.sun.proxy.$Proxy91.insertCars(Unknown Source) [?:?]
+	at com.example.demo.service.impl.CarServiceImpl.insertCars(CarServiceImpl.java:22) [classes/:?]
+	at com.example.demo.service.impl.CarServiceImpl$$FastClassBySpringCGLIB$$fae66b3c.invoke(<generated>) [classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769) [spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) [spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:72) [druid-1.1.9.jar:1.1.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) [spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689) [spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at com.example.demo.service.impl.CarServiceImpl$$EnhancerBySpringCGLIB$$49af5960.insertCars(<generated>) [classes/:?]
+	at com.example.demo.controller.CarController.insertCar(CarController.java:57) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_171]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) [spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) [spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) [spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) [spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) [spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) [spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at com.example.demo.config.CorsFilter.doFilter(CorsFilter.java:27) [classes/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) [druid-1.1.9.jar:1.1.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_171]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_171]
+
+[2020-03-27 12:14:40] DEBUG 137 statementLog - {conn-10002, pstmt-20002} closed
+[2020-03-27 12:22:00] DEBUG 137 statementLog - {conn-10002, pstmt-20003} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:22:00] DEBUG 137 statementLog - {conn-10002, pstmt-20003} Parameters : []
+[2020-03-27 12:22:00] DEBUG 137 statementLog - {conn-10002, pstmt-20003} Types : []
+[2020-03-27 12:22:01] DEBUG 137 statementLog - {conn-10002, pstmt-20003} executed. 907.438696 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:22:01] DEBUG 137 statementLog - {conn-10002, pstmt-20003} closed
+[2020-03-27 12:22:01] DEBUG 137 statementLog - {conn-10002, pstmt-20004} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:22:01] DEBUG 137 statementLog - {conn-10002, pstmt-20004} Parameters : []
+[2020-03-27 12:22:01] DEBUG 137 statementLog - {conn-10002, pstmt-20004} Types : []
+[2020-03-27 12:22:01] DEBUG 137 statementLog - {conn-10002, pstmt-20004} executed. 1.568821 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:22:01] DEBUG 137 statementLog - {conn-10002, pstmt-20004} closed
+[2020-03-27 12:22:01] DEBUG 137 statementLog - {conn-10002, pstmt-20005} created. insert into
+         
+        carTest
+     
+         ( carId, carName, ctime, carDesc ) 
+         values( ?,
+                    
+                ?,
+                
+                        ?,
+                    
+                
+                    ? )
+[2020-03-27 12:22:01] DEBUG 137 statementLog - {conn-10002, pstmt-20005} Parameters : [0, yahmaha, 2020-03-27T04:21:57.068Z, ]
+[2020-03-27 12:22:01] DEBUG 137 statementLog - {conn-10002, pstmt-20005} Types : [INTEGER, VARCHAR, VARCHAR, VARCHAR]
+[2020-03-27 12:22:01] DEBUG 137 statementLog - {conn-10002, pstmt-20005} executed. 10.873804 millis. insert into
+         
+        carTest
+     
+         ( carId, carName, ctime, carDesc ) 
+         values( ?,
+                    
+                ?,
+                
+                        ?,
+                    
+                
+                    ? )
+[2020-03-27 12:22:01] DEBUG 137 statementLog - {conn-10002, pstmt-20005} closed
+[2020-03-27 12:23:10] DEBUG 137 statementLog - {conn-10002, pstmt-20006} created. insert into
+         
+        carTest
+     
+         ( carId, carName, ctime, carDesc ) 
+         values( ?,
+                    
+                ?,
+                
+                        ?,
+                    
+                
+                    ? )
+[2020-03-27 12:23:10] DEBUG 137 statementLog - {conn-10002, pstmt-20006} Parameters : [0, cbr1000, 2020-03-27T04:23:01.522Z, ]
+[2020-03-27 12:23:10] DEBUG 137 statementLog - {conn-10002, pstmt-20006} Types : [INTEGER, VARCHAR, VARCHAR, VARCHAR]
+[2020-03-27 12:23:10] ERROR 152 statementLogError - {conn-10002, pstmt-20006} execute error. insert into
+         
+        carTest
+     
+         ( carId, carName, ctime, carDesc ) 
+         values( ?,
+                    
+                ?,
+                
+                        ?,
+                    
+                
+                    ? ) java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '0' for key 'cartest.PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117) ~[mysql-connector-java-8.0.19.jar:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.19.jar:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.19.jar:8.0.19]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.19.jar:8.0.19]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370) ~[mysql-connector-java-8.0.19.jar:8.0.19]
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3051) ~[druid-1.1.9.jar:1.1.9]
+	at com.alibaba.druid.wall.WallFilter.preparedStatement_execute(WallFilter.java:619) ~[druid-1.1.9.jar:1.1.9]
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3049) ~[druid-1.1.9.jar:1.1.9]
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440) ~[druid-1.1.9.jar:1.1.9]
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3049) ~[druid-1.1.9.jar:1.1.9]
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_execute(FilterAdapter.java:1080) ~[druid-1.1.9.jar:1.1.9]
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3049) ~[druid-1.1.9.jar:1.1.9]
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:167) ~[druid-1.1.9.jar:1.1.9]
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:498) ~[druid-1.1.9.jar:1.1.9]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184) ~[mybatis-3.5.3.jar:3.5.3]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_171]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at com.sun.proxy.$Proxy89.insert(Unknown Source) ~[?:?]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:271) ~[mybatis-spring-2.0.3.jar:2.0.3]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62) ~[mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:93) ~[mybatis-3.5.3.jar:3.5.3]
+	at com.sun.proxy.$Proxy90.insertCars(Unknown Source) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_171]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366) [spring-tx-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99) [spring-tx-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:72) [druid-1.1.9.jar:1.1.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) [spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at com.sun.proxy.$Proxy91.insertCars(Unknown Source) [?:?]
+	at com.example.demo.service.impl.CarServiceImpl.insertCars(CarServiceImpl.java:22) [classes/:?]
+	at com.example.demo.service.impl.CarServiceImpl$$FastClassBySpringCGLIB$$fae66b3c.invoke(<generated>) [classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769) [spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) [spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:72) [druid-1.1.9.jar:1.1.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) [spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689) [spring-aop-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at com.example.demo.service.impl.CarServiceImpl$$EnhancerBySpringCGLIB$$49af5960.insertCars(<generated>) [classes/:?]
+	at com.example.demo.controller.CarController.insertCar(CarController.java:57) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_171]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) [spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) [spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) [spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) [spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) [spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) [spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at com.example.demo.config.CorsFilter.doFilter(CorsFilter.java:27) [classes/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) [druid-1.1.9.jar:1.1.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_171]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_171]
+
+[2020-03-27 12:23:10] DEBUG 137 statementLog - {conn-10002, pstmt-20006} closed
+[2020-03-27 12:23:10] DEBUG 137 statementLog - {conn-10003, pstmt-20007} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:23:10] DEBUG 137 statementLog - {conn-10003, pstmt-20007} Parameters : []
+[2020-03-27 12:23:10] DEBUG 137 statementLog - {conn-10003, pstmt-20007} Types : []
+[2020-03-27 12:23:10] DEBUG 137 statementLog - {conn-10003, pstmt-20007} executed. 1.642206 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:23:10] DEBUG 137 statementLog - {conn-10003, pstmt-20007} closed
+[2020-03-27 12:23:10] DEBUG 137 statementLog - {conn-10003, pstmt-20008} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:23:10] DEBUG 137 statementLog - {conn-10003, pstmt-20008} Parameters : []
+[2020-03-27 12:23:10] DEBUG 137 statementLog - {conn-10003, pstmt-20008} Types : []
+[2020-03-27 12:23:10] DEBUG 137 statementLog - {conn-10003, pstmt-20008} executed. 2.664905 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:23:10] DEBUG 137 statementLog - {conn-10003, pstmt-20008} closed
+[2020-03-27 12:26:19] DEBUG 137 statementLog - {conn-10001, pstmt-20000} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:26:19] DEBUG 137 statementLog - {conn-10001, pstmt-20000} Parameters : []
+[2020-03-27 12:26:19] DEBUG 137 statementLog - {conn-10001, pstmt-20000} Types : []
+[2020-03-27 12:26:19] DEBUG 137 statementLog - {conn-10001, pstmt-20000} executed. 35.468501 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:26:19] DEBUG 137 statementLog - {conn-10001, pstmt-20000} closed
+[2020-03-27 12:26:19] DEBUG 137 statementLog - {conn-10001, pstmt-20001} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:26:19] DEBUG 137 statementLog - {conn-10001, pstmt-20001} Parameters : []
+[2020-03-27 12:26:19] DEBUG 137 statementLog - {conn-10001, pstmt-20001} Types : []
+[2020-03-27 12:26:19] DEBUG 137 statementLog - {conn-10001, pstmt-20001} executed. 3.007938 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:26:19] DEBUG 137 statementLog - {conn-10001, pstmt-20001} closed
+[2020-03-27 12:27:31] DEBUG 137 statementLog - {conn-10001, pstmt-20000} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:27:31] DEBUG 137 statementLog - {conn-10001, pstmt-20000} Parameters : []
+[2020-03-27 12:27:31] DEBUG 137 statementLog - {conn-10001, pstmt-20000} Types : []
+[2020-03-27 12:27:31] DEBUG 137 statementLog - {conn-10002, pstmt-20001} created. insert into
+         
+        carTest
+     
+         ( carId, carName, ctime, carDesc ) 
+         values( rand()*10+rand()*10000,
+                    
+                ?,
+                
+                        ?,
+                    
+                
+                    ? )
+[2020-03-27 12:27:31] DEBUG 137 statementLog - {conn-10002, pstmt-20001} Parameters : [cbr1000, 2020-03-27T04:27:31.439Z, ]
+[2020-03-27 12:27:31] DEBUG 137 statementLog - {conn-10002, pstmt-20001} Types : [VARCHAR, VARCHAR, VARCHAR]
+[2020-03-27 12:27:31] DEBUG 137 statementLog - {conn-10002, pstmt-20001} executed. 4.631798 millis. insert into
+         
+        carTest
+     
+         ( carId, carName, ctime, carDesc ) 
+         values( rand()*10+rand()*10000,
+                    
+                ?,
+                
+                        ?,
+                    
+                
+                    ? )
+[2020-03-27 12:27:31] DEBUG 137 statementLog - {conn-10002, pstmt-20001} closed
+[2020-03-27 12:27:31] DEBUG 137 statementLog - {conn-10001, pstmt-20000} executed. 17.370524 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:27:31] DEBUG 137 statementLog - {conn-10001, pstmt-20000} closed
+[2020-03-27 12:27:31] DEBUG 137 statementLog - {conn-10001, pstmt-20002} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:27:31] DEBUG 137 statementLog - {conn-10001, pstmt-20002} Parameters : []
+[2020-03-27 12:27:31] DEBUG 137 statementLog - {conn-10001, pstmt-20002} Types : []
+[2020-03-27 12:27:31] DEBUG 137 statementLog - {conn-10001, pstmt-20002} executed. 1.911427 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:27:31] DEBUG 137 statementLog - {conn-10001, pstmt-20002} closed
+[2020-03-27 12:29:04] DEBUG 137 statementLog - {conn-10001, pstmt-20003} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:29:04] DEBUG 137 statementLog - {conn-10001, pstmt-20003} Parameters : []
+[2020-03-27 12:29:04] DEBUG 137 statementLog - {conn-10001, pstmt-20003} Types : []
+[2020-03-27 12:29:04] DEBUG 137 statementLog - {conn-10001, pstmt-20003} executed. 3.782322 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:29:04] DEBUG 137 statementLog - {conn-10001, pstmt-20003} closed
+[2020-03-27 12:29:04] DEBUG 137 statementLog - {conn-10001, pstmt-20004} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:29:04] DEBUG 137 statementLog - {conn-10001, pstmt-20004} Parameters : []
+[2020-03-27 12:29:04] DEBUG 137 statementLog - {conn-10001, pstmt-20004} Types : []
+[2020-03-27 12:29:04] DEBUG 137 statementLog - {conn-10001, pstmt-20004} executed. 20.035856 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:29:04] DEBUG 137 statementLog - {conn-10001, pstmt-20004} closed
+[2020-03-27 12:29:24] DEBUG 137 statementLog - {conn-10001, pstmt-20005} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:29:24] DEBUG 137 statementLog - {conn-10001, pstmt-20005} Parameters : []
+[2020-03-27 12:29:24] DEBUG 137 statementLog - {conn-10001, pstmt-20005} Types : []
+[2020-03-27 12:29:24] DEBUG 137 statementLog - {conn-10001, pstmt-20005} executed. 1.891374 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:29:24] DEBUG 137 statementLog - {conn-10001, pstmt-20005} closed
+[2020-03-27 12:29:24] DEBUG 137 statementLog - {conn-10001, pstmt-20006} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:29:24] DEBUG 137 statementLog - {conn-10001, pstmt-20006} Parameters : []
+[2020-03-27 12:29:24] DEBUG 137 statementLog - {conn-10001, pstmt-20006} Types : []
+[2020-03-27 12:29:24] DEBUG 137 statementLog - {conn-10001, pstmt-20006} executed. 5.38229 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:29:24] DEBUG 137 statementLog - {conn-10001, pstmt-20006} closed
+[2020-03-27 12:29:45] DEBUG 137 statementLog - {conn-10001, pstmt-20007} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:29:45] DEBUG 137 statementLog - {conn-10001, pstmt-20007} Parameters : []
+[2020-03-27 12:29:45] DEBUG 137 statementLog - {conn-10001, pstmt-20007} Types : []
+[2020-03-27 12:29:45] DEBUG 137 statementLog - {conn-10001, pstmt-20007} executed. 2.752797 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:29:45] DEBUG 137 statementLog - {conn-10001, pstmt-20007} closed
+[2020-03-27 12:29:45] DEBUG 137 statementLog - {conn-10001, pstmt-20008} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:29:45] DEBUG 137 statementLog - {conn-10001, pstmt-20008} Parameters : []
+[2020-03-27 12:29:45] DEBUG 137 statementLog - {conn-10001, pstmt-20008} Types : []
+[2020-03-27 12:29:45] DEBUG 137 statementLog - {conn-10001, pstmt-20008} executed. 4.090796 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:29:45] DEBUG 137 statementLog - {conn-10001, pstmt-20008} closed
+[2020-03-27 12:30:18] DEBUG 137 statementLog - {conn-10001, pstmt-20009} created. insert into
+         
+        carTest
+     
+         ( carId, carName, ctime, carDesc ) 
+         values( rand()*10+rand()*10000,
+                    
+                ?,
+                
+                        ?,
+                    
+                
+                    ? )
+[2020-03-27 12:30:18] DEBUG 137 statementLog - {conn-10001, pstmt-20009} Parameters : [川崎四眼魔神, 2020-03-27T04:30:18.658Z, ]
+[2020-03-27 12:30:18] DEBUG 137 statementLog - {conn-10001, pstmt-20009} Types : [VARCHAR, VARCHAR, VARCHAR]
+[2020-03-27 12:30:18] DEBUG 137 statementLog - {conn-10001, pstmt-20009} executed. 4.575053 millis. insert into
+         
+        carTest
+     
+         ( carId, carName, ctime, carDesc ) 
+         values( rand()*10+rand()*10000,
+                    
+                ?,
+                
+                        ?,
+                    
+                
+                    ? )
+[2020-03-27 12:30:18] DEBUG 137 statementLog - {conn-10001, pstmt-20009} closed
+[2020-03-27 12:31:34] DEBUG 137 statementLog - {conn-10001, pstmt-20010} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:31:34] DEBUG 137 statementLog - {conn-10001, pstmt-20010} Parameters : []
+[2020-03-27 12:31:34] DEBUG 137 statementLog - {conn-10001, pstmt-20010} Types : []
+[2020-03-27 12:31:34] DEBUG 137 statementLog - {conn-10001, pstmt-20010} executed. 24.621149 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:31:34] DEBUG 137 statementLog - {conn-10001, pstmt-20010} closed
+[2020-03-27 12:31:34] DEBUG 137 statementLog - {conn-10001, pstmt-20011} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:31:34] DEBUG 137 statementLog - {conn-10001, pstmt-20011} Parameters : []
+[2020-03-27 12:31:34] DEBUG 137 statementLog - {conn-10001, pstmt-20011} Types : []
+[2020-03-27 12:31:34] DEBUG 137 statementLog - {conn-10001, pstmt-20011} executed. 5.342611 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:31:34] DEBUG 137 statementLog - {conn-10001, pstmt-20011} closed
+[2020-03-27 12:31:57] DEBUG 137 statementLog - {conn-10001, pstmt-20012} created. insert into
+         
+        carTest
+     
+         ( carId, carName, ctime, carDesc ) 
+         values( rand()*10+rand()*10000,
+                    
+                ?,
+                
+                        ?,
+                    
+                
+                    ? )
+[2020-03-27 12:31:57] DEBUG 137 statementLog - {conn-10001, pstmt-20012} Parameters : [川崎H2R, 2020-03-27T04:31:57.650Z, ]
+[2020-03-27 12:31:57] DEBUG 137 statementLog - {conn-10001, pstmt-20012} Types : [VARCHAR, VARCHAR, VARCHAR]
+[2020-03-27 12:31:57] DEBUG 137 statementLog - {conn-10001, pstmt-20012} executed. 1.540235 millis. insert into
+         
+        carTest
+     
+         ( carId, carName, ctime, carDesc ) 
+         values( rand()*10+rand()*10000,
+                    
+                ?,
+                
+                        ?,
+                    
+                
+                    ? )
+[2020-03-27 12:31:57] DEBUG 137 statementLog - {conn-10001, pstmt-20012} closed
+[2020-03-27 12:31:57] DEBUG 137 statementLog - {conn-10001, pstmt-20013} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:31:57] DEBUG 137 statementLog - {conn-10001, pstmt-20013} Parameters : []
+[2020-03-27 12:31:57] DEBUG 137 statementLog - {conn-10001, pstmt-20013} Types : []
+[2020-03-27 12:31:57] DEBUG 137 statementLog - {conn-10001, pstmt-20013} executed. 1.628553 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:31:57] DEBUG 137 statementLog - {conn-10001, pstmt-20013} closed
+[2020-03-27 12:31:57] DEBUG 137 statementLog - {conn-10001, pstmt-20014} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:31:57] DEBUG 137 statementLog - {conn-10001, pstmt-20014} Parameters : []
+[2020-03-27 12:31:57] DEBUG 137 statementLog - {conn-10001, pstmt-20014} Types : []
+[2020-03-27 12:31:57] DEBUG 137 statementLog - {conn-10001, pstmt-20014} executed. 1.175016 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:31:57] DEBUG 137 statementLog - {conn-10001, pstmt-20014} closed
+[2020-03-27 12:32:09] DEBUG 137 statementLog - {conn-10001, pstmt-20015} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:32:09] DEBUG 137 statementLog - {conn-10001, pstmt-20015} Parameters : []
+[2020-03-27 12:32:09] DEBUG 137 statementLog - {conn-10001, pstmt-20015} Types : []
+[2020-03-27 12:32:09] DEBUG 137 statementLog - {conn-10001, pstmt-20015} executed. 4.568226 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:32:09] DEBUG 137 statementLog - {conn-10001, pstmt-20015} closed
+[2020-03-27 12:32:09] DEBUG 137 statementLog - {conn-10001, pstmt-20016} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:32:09] DEBUG 137 statementLog - {conn-10001, pstmt-20016} Parameters : []
+[2020-03-27 12:32:09] DEBUG 137 statementLog - {conn-10001, pstmt-20016} Types : []
+[2020-03-27 12:32:09] DEBUG 137 statementLog - {conn-10001, pstmt-20016} executed. 5.282879 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:32:09] DEBUG 137 statementLog - {conn-10001, pstmt-20016} closed
+[2020-03-27 12:55:58] DEBUG 137 statementLog - {conn-10001, pstmt-20000} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:55:58] DEBUG 137 statementLog - {conn-10001, pstmt-20000} Parameters : []
+[2020-03-27 12:55:58] DEBUG 137 statementLog - {conn-10001, pstmt-20000} Types : []
+[2020-03-27 12:55:58] DEBUG 137 statementLog - {conn-10001, pstmt-20000} executed. 26.281275 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:55:59] DEBUG 137 statementLog - {conn-10001, pstmt-20000} closed
+[2020-03-27 12:55:59] DEBUG 137 statementLog - {conn-10001, pstmt-20001} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:55:59] DEBUG 137 statementLog - {conn-10001, pstmt-20001} Parameters : []
+[2020-03-27 12:55:59] DEBUG 137 statementLog - {conn-10001, pstmt-20001} Types : []
+[2020-03-27 12:55:59] DEBUG 137 statementLog - {conn-10001, pstmt-20001} executed. 2.408057 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:55:59] DEBUG 137 statementLog - {conn-10001, pstmt-20001} closed
+[2020-03-27 12:56:02] DEBUG 137 statementLog - {conn-10001, pstmt-20002} created. insert into
+         
+        carTest
+     
+         ( carId, carName, ctime, carDesc ) 
+         values( rand()*10+rand()*10000,
+                    
+                ?,
+                
+                        ?,
+                    
+                
+                    ? )
+[2020-03-27 12:56:02] DEBUG 137 statementLog - {conn-10001, pstmt-20002} Parameters : [, 2020-03-27T04:56:01.978Z, ]
+[2020-03-27 12:56:02] DEBUG 137 statementLog - {conn-10001, pstmt-20002} Types : [VARCHAR, VARCHAR, VARCHAR]
+[2020-03-27 12:56:02] DEBUG 137 statementLog - {conn-10001, pstmt-20002} executed. 5.024324 millis. insert into
+         
+        carTest
+     
+         ( carId, carName, ctime, carDesc ) 
+         values( rand()*10+rand()*10000,
+                    
+                ?,
+                
+                        ?,
+                    
+                
+                    ? )
+[2020-03-27 12:56:02] DEBUG 137 statementLog - {conn-10001, pstmt-20002} closed
+[2020-03-27 12:56:02] DEBUG 137 statementLog - {conn-10001, pstmt-20003} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:56:02] DEBUG 137 statementLog - {conn-10001, pstmt-20003} Parameters : []
+[2020-03-27 12:56:02] DEBUG 137 statementLog - {conn-10001, pstmt-20003} Types : []
+[2020-03-27 12:56:02] DEBUG 137 statementLog - {conn-10001, pstmt-20003} executed. 1.47453 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:56:02] DEBUG 137 statementLog - {conn-10001, pstmt-20003} closed
+[2020-03-27 12:56:02] DEBUG 137 statementLog - {conn-10001, pstmt-20004} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:56:02] DEBUG 137 statementLog - {conn-10001, pstmt-20004} Parameters : []
+[2020-03-27 12:56:02] DEBUG 137 statementLog - {conn-10001, pstmt-20004} Types : []
+[2020-03-27 12:56:02] DEBUG 137 statementLog - {conn-10001, pstmt-20004} executed. 1.354639 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:56:02] DEBUG 137 statementLog - {conn-10001, pstmt-20004} closed
+[2020-03-27 12:56:38] DEBUG 137 statementLog - {conn-10001, pstmt-20005} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:56:38] DEBUG 137 statementLog - {conn-10001, pstmt-20005} Parameters : []
+[2020-03-27 12:56:38] DEBUG 137 statementLog - {conn-10001, pstmt-20005} Types : []
+[2020-03-27 12:56:38] DEBUG 137 statementLog - {conn-10001, pstmt-20005} executed. 4.580173 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:56:38] DEBUG 137 statementLog - {conn-10001, pstmt-20005} closed
+[2020-03-27 12:56:38] DEBUG 137 statementLog - {conn-10001, pstmt-20006} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:56:38] DEBUG 137 statementLog - {conn-10001, pstmt-20006} Parameters : []
+[2020-03-27 12:56:38] DEBUG 137 statementLog - {conn-10001, pstmt-20006} Types : []
+[2020-03-27 12:56:38] DEBUG 137 statementLog - {conn-10001, pstmt-20006} executed. 2.359419 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:56:38] DEBUG 137 statementLog - {conn-10001, pstmt-20006} closed
+[2020-03-27 12:56:39] DEBUG 137 statementLog - {conn-10001, pstmt-20007} created. delete
+        from cartest
+        where carId = ?
+[2020-03-27 12:56:39] DEBUG 137 statementLog - {conn-10001, pstmt-20007} Parameters : [0]
+[2020-03-27 12:56:39] DEBUG 137 statementLog - {conn-10001, pstmt-20007} Types : [INTEGER]
+[2020-03-27 12:56:39] DEBUG 137 statementLog - {conn-10001, pstmt-20007} executed. 10.188165 millis. delete
+        from cartest
+        where carId = ?
+[2020-03-27 12:56:39] DEBUG 137 statementLog - {conn-10001, pstmt-20007} closed
+[2020-03-27 12:56:39] DEBUG 137 statementLog - {conn-10001, pstmt-20008} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:56:39] DEBUG 137 statementLog - {conn-10001, pstmt-20008} Parameters : []
+[2020-03-27 12:56:39] DEBUG 137 statementLog - {conn-10001, pstmt-20008} Types : []
+[2020-03-27 12:56:39] DEBUG 137 statementLog - {conn-10001, pstmt-20008} executed. 1.698525 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:56:39] DEBUG 137 statementLog - {conn-10001, pstmt-20008} closed
+[2020-03-27 12:56:39] DEBUG 137 statementLog - {conn-10001, pstmt-20009} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:56:39] DEBUG 137 statementLog - {conn-10001, pstmt-20009} Parameters : []
+[2020-03-27 12:56:39] DEBUG 137 statementLog - {conn-10001, pstmt-20009} Types : []
+[2020-03-27 12:56:39] DEBUG 137 statementLog - {conn-10001, pstmt-20009} executed. 1.753564 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:56:39] DEBUG 137 statementLog - {conn-10001, pstmt-20009} closed
+[2020-03-27 12:57:09] DEBUG 137 statementLog - {conn-10001, pstmt-20010} created. delete
+        from cartest
+        where carId = ?
+[2020-03-27 12:57:09] DEBUG 137 statementLog - {conn-10001, pstmt-20010} Parameters : [0]
+[2020-03-27 12:57:09] DEBUG 137 statementLog - {conn-10001, pstmt-20010} Types : [INTEGER]
+[2020-03-27 12:57:09] DEBUG 137 statementLog - {conn-10001, pstmt-20010} executed. 1.418211 millis. delete
+        from cartest
+        where carId = ?
+[2020-03-27 12:57:09] DEBUG 137 statementLog - {conn-10001, pstmt-20010} closed
+[2020-03-27 12:57:09] DEBUG 137 statementLog - {conn-10001, pstmt-20011} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:57:09] DEBUG 137 statementLog - {conn-10001, pstmt-20011} Parameters : []
+[2020-03-27 12:57:09] DEBUG 137 statementLog - {conn-10001, pstmt-20011} Types : []
+[2020-03-27 12:57:09] DEBUG 137 statementLog - {conn-10001, pstmt-20011} executed. 1.283814 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:57:09] DEBUG 137 statementLog - {conn-10001, pstmt-20011} closed
+[2020-03-27 12:57:09] DEBUG 137 statementLog - {conn-10001, pstmt-20012} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:57:09] DEBUG 137 statementLog - {conn-10001, pstmt-20012} Parameters : []
+[2020-03-27 12:57:09] DEBUG 137 statementLog - {conn-10001, pstmt-20012} Types : []
+[2020-03-27 12:57:09] DEBUG 137 statementLog - {conn-10001, pstmt-20012} executed. 1.826522 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:57:09] DEBUG 137 statementLog - {conn-10001, pstmt-20012} closed
+[2020-03-27 12:57:26] DEBUG 137 statementLog - {conn-10001, pstmt-20013} created. delete
+        from cartest
+        where carId = ?
+[2020-03-27 12:57:26] DEBUG 137 statementLog - {conn-10001, pstmt-20013} Parameters : [0]
+[2020-03-27 12:57:26] DEBUG 137 statementLog - {conn-10001, pstmt-20013} Types : [INTEGER]
+[2020-03-27 12:57:26] DEBUG 137 statementLog - {conn-10001, pstmt-20013} executed. 2.045398 millis. delete
+        from cartest
+        where carId = ?
+[2020-03-27 12:57:26] DEBUG 137 statementLog - {conn-10001, pstmt-20013} closed
+[2020-03-27 12:57:26] DEBUG 137 statementLog - {conn-10001, pstmt-20014} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:57:26] DEBUG 137 statementLog - {conn-10001, pstmt-20014} Parameters : []
+[2020-03-27 12:57:26] DEBUG 137 statementLog - {conn-10001, pstmt-20014} Types : []
+[2020-03-27 12:57:26] DEBUG 137 statementLog - {conn-10001, pstmt-20014} executed. 1.278267 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:57:26] DEBUG 137 statementLog - {conn-10001, pstmt-20014} closed
+[2020-03-27 12:57:26] DEBUG 137 statementLog - {conn-10001, pstmt-20015} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:57:26] DEBUG 137 statementLog - {conn-10001, pstmt-20015} Parameters : []
+[2020-03-27 12:57:26] DEBUG 137 statementLog - {conn-10001, pstmt-20015} Types : []
+[2020-03-27 12:57:26] DEBUG 137 statementLog - {conn-10001, pstmt-20015} executed. 1.306853 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:57:26] DEBUG 137 statementLog - {conn-10001, pstmt-20015} closed
+[2020-03-27 12:57:27] DEBUG 137 statementLog - {conn-10001, pstmt-20016} created. delete
+        from cartest
+        where carId = ?
+[2020-03-27 12:57:27] DEBUG 137 statementLog - {conn-10001, pstmt-20016} Parameters : [0]
+[2020-03-27 12:57:27] DEBUG 137 statementLog - {conn-10001, pstmt-20016} Types : [INTEGER]
+[2020-03-27 12:57:27] DEBUG 137 statementLog - {conn-10001, pstmt-20016} executed. 5.040964 millis. delete
+        from cartest
+        where carId = ?
+[2020-03-27 12:57:27] DEBUG 137 statementLog - {conn-10001, pstmt-20016} closed
+[2020-03-27 12:57:27] DEBUG 137 statementLog - {conn-10001, pstmt-20017} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:57:27] DEBUG 137 statementLog - {conn-10001, pstmt-20017} Parameters : []
+[2020-03-27 12:57:27] DEBUG 137 statementLog - {conn-10001, pstmt-20017} Types : []
+[2020-03-27 12:57:27] DEBUG 137 statementLog - {conn-10001, pstmt-20017} executed. 2.326139 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:57:27] DEBUG 137 statementLog - {conn-10001, pstmt-20017} closed
+[2020-03-27 12:57:27] DEBUG 137 statementLog - {conn-10001, pstmt-20018} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:57:27] DEBUG 137 statementLog - {conn-10001, pstmt-20018} Parameters : []
+[2020-03-27 12:57:27] DEBUG 137 statementLog - {conn-10001, pstmt-20018} Types : []
+[2020-03-27 12:57:27] DEBUG 137 statementLog - {conn-10001, pstmt-20018} executed. 1.449356 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:57:27] DEBUG 137 statementLog - {conn-10001, pstmt-20018} closed
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20019} created. delete
+        from cartest
+        where carId = ?
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20019} Parameters : [0]
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20019} Types : [INTEGER]
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20019} executed. 4.144982 millis. delete
+        from cartest
+        where carId = ?
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20019} closed
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20020} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20020} Parameters : []
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20020} Types : []
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20020} executed. 1.380665 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20020} closed
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20021} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20021} Parameters : []
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20021} Types : []
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20021} executed. 1.397732 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20021} closed
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20022} created. delete
+        from cartest
+        where carId = ?
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20022} Parameters : [0]
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20022} Types : [INTEGER]
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20022} executed. 1.433144 millis. delete
+        from cartest
+        where carId = ?
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20022} closed
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20023} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20023} Parameters : []
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20023} Types : []
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20023} executed. 1.588875 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20023} closed
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20024} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20024} Parameters : []
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20024} Types : []
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20024} executed. 1.419491 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:57:28] DEBUG 137 statementLog - {conn-10001, pstmt-20024} closed
+[2020-03-27 12:57:32] DEBUG 137 statementLog - {conn-10001, pstmt-20025} created. delete
+        from cartest
+        where carId = ?
+[2020-03-27 12:57:32] DEBUG 137 statementLog - {conn-10001, pstmt-20025} Parameters : [0]
+[2020-03-27 12:57:32] DEBUG 137 statementLog - {conn-10001, pstmt-20025} Types : [INTEGER]
+[2020-03-27 12:57:32] DEBUG 137 statementLog - {conn-10001, pstmt-20025} executed. 3.333051 millis. delete
+        from cartest
+        where carId = ?
+[2020-03-27 12:57:32] DEBUG 137 statementLog - {conn-10001, pstmt-20025} closed
+[2020-03-27 12:57:32] DEBUG 137 statementLog - {conn-10001, pstmt-20026} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:57:32] DEBUG 137 statementLog - {conn-10001, pstmt-20026} Parameters : []
+[2020-03-27 12:57:32] DEBUG 137 statementLog - {conn-10001, pstmt-20026} Types : []
+[2020-03-27 12:57:32] DEBUG 137 statementLog - {conn-10001, pstmt-20026} executed. 1.457036 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:57:32] DEBUG 137 statementLog - {conn-10001, pstmt-20026} closed
+[2020-03-27 12:57:32] DEBUG 137 statementLog - {conn-10001, pstmt-20027} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:57:32] DEBUG 137 statementLog - {conn-10001, pstmt-20027} Parameters : []
+[2020-03-27 12:57:32] DEBUG 137 statementLog - {conn-10001, pstmt-20027} Types : []
+[2020-03-27 12:57:32] DEBUG 137 statementLog - {conn-10001, pstmt-20027} executed. 1.505676 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:57:32] DEBUG 137 statementLog - {conn-10001, pstmt-20027} closed
+[2020-03-27 12:57:57] DEBUG 137 statementLog - {conn-10001, pstmt-20028} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:57:57] DEBUG 137 statementLog - {conn-10001, pstmt-20028} Parameters : []
+[2020-03-27 12:57:57] DEBUG 137 statementLog - {conn-10001, pstmt-20028} Types : []
+[2020-03-27 12:57:57] DEBUG 137 statementLog - {conn-10001, pstmt-20028} executed. 2.987032 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:57:57] DEBUG 137 statementLog - {conn-10001, pstmt-20028} closed
+[2020-03-27 12:57:57] DEBUG 137 statementLog - {conn-10001, pstmt-20029} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:57:57] DEBUG 137 statementLog - {conn-10001, pstmt-20029} Parameters : []
+[2020-03-27 12:57:57] DEBUG 137 statementLog - {conn-10001, pstmt-20029} Types : []
+[2020-03-27 12:57:57] DEBUG 137 statementLog - {conn-10001, pstmt-20029} executed. 7.272384 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:57:57] DEBUG 137 statementLog - {conn-10001, pstmt-20029} closed
+[2020-03-27 12:58:08] DEBUG 137 statementLog - {conn-10001, pstmt-20030} created. delete
+        from cartest
+        where carId = ?
+[2020-03-27 12:58:08] DEBUG 137 statementLog - {conn-10001, pstmt-20030} Parameters : [0]
+[2020-03-27 12:58:08] DEBUG 137 statementLog - {conn-10001, pstmt-20030} Types : [INTEGER]
+[2020-03-27 12:58:08] DEBUG 137 statementLog - {conn-10001, pstmt-20030} executed. 1.725404 millis. delete
+        from cartest
+        where carId = ?
+[2020-03-27 12:58:08] DEBUG 137 statementLog - {conn-10001, pstmt-20030} closed
+[2020-03-27 12:58:08] DEBUG 137 statementLog - {conn-10001, pstmt-20031} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:58:08] DEBUG 137 statementLog - {conn-10001, pstmt-20031} Parameters : []
+[2020-03-27 12:58:08] DEBUG 137 statementLog - {conn-10001, pstmt-20031} Types : []
+[2020-03-27 12:58:08] DEBUG 137 statementLog - {conn-10001, pstmt-20031} executed. 2.332539 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:58:08] DEBUG 137 statementLog - {conn-10001, pstmt-20031} closed
+[2020-03-27 12:58:08] DEBUG 137 statementLog - {conn-10001, pstmt-20032} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:58:08] DEBUG 137 statementLog - {conn-10001, pstmt-20032} Parameters : []
+[2020-03-27 12:58:08] DEBUG 137 statementLog - {conn-10001, pstmt-20032} Types : []
+[2020-03-27 12:58:08] DEBUG 137 statementLog - {conn-10001, pstmt-20032} executed. 1.667806 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:58:08] DEBUG 137 statementLog - {conn-10001, pstmt-20032} closed
+[2020-03-27 12:58:09] DEBUG 137 statementLog - {conn-10001, pstmt-20033} created. delete
+        from cartest
+        where carId = ?
+[2020-03-27 12:58:09] DEBUG 137 statementLog - {conn-10001, pstmt-20033} Parameters : [0]
+[2020-03-27 12:58:09] DEBUG 137 statementLog - {conn-10001, pstmt-20033} Types : [INTEGER]
+[2020-03-27 12:58:09] DEBUG 137 statementLog - {conn-10001, pstmt-20033} executed. 2.648266 millis. delete
+        from cartest
+        where carId = ?
+[2020-03-27 12:58:09] DEBUG 137 statementLog - {conn-10001, pstmt-20033} closed
+[2020-03-27 12:58:09] DEBUG 137 statementLog - {conn-10001, pstmt-20034} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:58:09] DEBUG 137 statementLog - {conn-10001, pstmt-20034} Parameters : []
+[2020-03-27 12:58:09] DEBUG 137 statementLog - {conn-10001, pstmt-20034} Types : []
+[2020-03-27 12:58:09] DEBUG 137 statementLog - {conn-10001, pstmt-20034} executed. 2.413177 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:58:09] DEBUG 137 statementLog - {conn-10001, pstmt-20034} closed
+[2020-03-27 12:58:09] DEBUG 137 statementLog - {conn-10001, pstmt-20035} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:58:09] DEBUG 137 statementLog - {conn-10001, pstmt-20035} Parameters : []
+[2020-03-27 12:58:09] DEBUG 137 statementLog - {conn-10001, pstmt-20035} Types : []
+[2020-03-27 12:58:09] DEBUG 137 statementLog - {conn-10001, pstmt-20035} executed. 1.204029 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:58:09] DEBUG 137 statementLog - {conn-10001, pstmt-20035} closed
+[2020-03-27 12:58:35] DEBUG 137 statementLog - {conn-10001, pstmt-20036} created. delete
+        from cartest
+        where carId = ?
+[2020-03-27 12:58:35] DEBUG 137 statementLog - {conn-10001, pstmt-20036} Parameters : [0]
+[2020-03-27 12:58:35] DEBUG 137 statementLog - {conn-10001, pstmt-20036} Types : [INTEGER]
+[2020-03-27 12:58:35] DEBUG 137 statementLog - {conn-10001, pstmt-20036} executed. 25.744966 millis. delete
+        from cartest
+        where carId = ?
+[2020-03-27 12:58:35] DEBUG 137 statementLog - {conn-10001, pstmt-20036} closed
+[2020-03-27 12:58:45] DEBUG 137 statementLog - {conn-10001, pstmt-20037} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:58:45] DEBUG 137 statementLog - {conn-10001, pstmt-20037} Parameters : []
+[2020-03-27 12:58:45] DEBUG 137 statementLog - {conn-10001, pstmt-20037} Types : []
+[2020-03-27 12:58:45] DEBUG 137 statementLog - {conn-10001, pstmt-20037} executed. 1.871748 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:58:45] DEBUG 137 statementLog - {conn-10001, pstmt-20037} closed
+[2020-03-27 12:58:45] DEBUG 137 statementLog - {conn-10001, pstmt-20038} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:58:45] DEBUG 137 statementLog - {conn-10001, pstmt-20038} Parameters : []
+[2020-03-27 12:58:45] DEBUG 137 statementLog - {conn-10001, pstmt-20038} Types : []
+[2020-03-27 12:58:45] DEBUG 137 statementLog - {conn-10001, pstmt-20038} executed. 1.775323 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:58:45] DEBUG 137 statementLog - {conn-10001, pstmt-20038} closed
+[2020-03-27 12:59:24] DEBUG 137 statementLog - {conn-10001, pstmt-20039} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:59:24] DEBUG 137 statementLog - {conn-10001, pstmt-20039} Parameters : []
+[2020-03-27 12:59:24] DEBUG 137 statementLog - {conn-10001, pstmt-20039} Types : []
+[2020-03-27 12:59:24] DEBUG 137 statementLog - {conn-10001, pstmt-20039} executed. 2.113237 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:59:24] DEBUG 137 statementLog - {conn-10001, pstmt-20039} closed
+[2020-03-27 12:59:24] DEBUG 137 statementLog - {conn-10001, pstmt-20040} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:59:24] DEBUG 137 statementLog - {conn-10001, pstmt-20040} Parameters : []
+[2020-03-27 12:59:24] DEBUG 137 statementLog - {conn-10001, pstmt-20040} Types : []
+[2020-03-27 12:59:24] DEBUG 137 statementLog - {conn-10001, pstmt-20040} executed. 2.050091 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:59:24] DEBUG 137 statementLog - {conn-10001, pstmt-20040} closed
+[2020-03-27 12:59:38] DEBUG 137 statementLog - {conn-10001, pstmt-20041} created. delete
+        from cartest
+        where carId = ?
+[2020-03-27 12:59:38] DEBUG 137 statementLog - {conn-10001, pstmt-20041} Parameters : [7621]
+[2020-03-27 12:59:38] DEBUG 137 statementLog - {conn-10001, pstmt-20041} Types : [INTEGER]
+[2020-03-27 12:59:38] DEBUG 137 statementLog - {conn-10001, pstmt-20041} executed. 31.931933 millis. delete
+        from cartest
+        where carId = ?
+[2020-03-27 12:59:38] DEBUG 137 statementLog - {conn-10001, pstmt-20041} closed
+[2020-03-27 12:59:42] DEBUG 137 statementLog - {conn-10001, pstmt-20042} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:59:42] DEBUG 137 statementLog - {conn-10001, pstmt-20042} Parameters : []
+[2020-03-27 12:59:42] DEBUG 137 statementLog - {conn-10001, pstmt-20042} Types : []
+[2020-03-27 12:59:42] DEBUG 137 statementLog - {conn-10001, pstmt-20042} executed. 1.775323 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:59:42] DEBUG 137 statementLog - {conn-10001, pstmt-20042} closed
+[2020-03-27 12:59:42] DEBUG 137 statementLog - {conn-10001, pstmt-20043} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:59:42] DEBUG 137 statementLog - {conn-10001, pstmt-20043} Parameters : []
+[2020-03-27 12:59:42] DEBUG 137 statementLog - {conn-10001, pstmt-20043} Types : []
+[2020-03-27 12:59:42] DEBUG 137 statementLog - {conn-10001, pstmt-20043} executed. 1.670366 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 12:59:42] DEBUG 137 statementLog - {conn-10001, pstmt-20043} closed
+[2020-03-27 13:00:27] DEBUG 137 statementLog - {conn-10001, pstmt-20044} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:00:27] DEBUG 137 statementLog - {conn-10001, pstmt-20044} Parameters : []
+[2020-03-27 13:00:27] DEBUG 137 statementLog - {conn-10001, pstmt-20044} Types : []
+[2020-03-27 13:00:27] DEBUG 137 statementLog - {conn-10001, pstmt-20044} executed. 4.382203 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:00:27] DEBUG 137 statementLog - {conn-10001, pstmt-20044} closed
+[2020-03-27 13:00:27] DEBUG 137 statementLog - {conn-10001, pstmt-20045} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:00:27] DEBUG 137 statementLog - {conn-10001, pstmt-20045} Parameters : []
+[2020-03-27 13:00:27] DEBUG 137 statementLog - {conn-10001, pstmt-20045} Types : []
+[2020-03-27 13:00:27] DEBUG 137 statementLog - {conn-10001, pstmt-20045} executed. 5.587512 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:00:27] DEBUG 137 statementLog - {conn-10001, pstmt-20045} closed
+[2020-03-27 13:00:45] DEBUG 137 statementLog - {conn-10001, pstmt-20046} created. delete
+        from cartest
+        where carId = ?
+[2020-03-27 13:00:45] DEBUG 137 statementLog - {conn-10001, pstmt-20046} Parameters : [3750]
+[2020-03-27 13:00:45] DEBUG 137 statementLog - {conn-10001, pstmt-20046} Types : [INTEGER]
+[2020-03-27 13:00:45] DEBUG 137 statementLog - {conn-10001, pstmt-20046} executed. 16.900774 millis. delete
+        from cartest
+        where carId = ?
+[2020-03-27 13:00:45] DEBUG 137 statementLog - {conn-10001, pstmt-20046} closed
+[2020-03-27 13:02:22] DEBUG 137 statementLog - {conn-10001, pstmt-20047} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:02:22] DEBUG 137 statementLog - {conn-10001, pstmt-20047} Parameters : []
+[2020-03-27 13:02:22] DEBUG 137 statementLog - {conn-10001, pstmt-20047} Types : []
+[2020-03-27 13:02:22] DEBUG 137 statementLog - {conn-10001, pstmt-20047} executed. 1.95324 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:02:22] DEBUG 137 statementLog - {conn-10001, pstmt-20047} closed
+[2020-03-27 13:02:22] DEBUG 137 statementLog - {conn-10001, pstmt-20048} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:02:22] DEBUG 137 statementLog - {conn-10001, pstmt-20048} Parameters : []
+[2020-03-27 13:02:22] DEBUG 137 statementLog - {conn-10001, pstmt-20048} Types : []
+[2020-03-27 13:02:22] DEBUG 137 statementLog - {conn-10001, pstmt-20048} executed. 2.073984 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:02:22] DEBUG 137 statementLog - {conn-10001, pstmt-20048} closed
+[2020-03-27 13:02:30] DEBUG 137 statementLog - {conn-10001, pstmt-20049} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:02:30] DEBUG 137 statementLog - {conn-10001, pstmt-20049} Parameters : []
+[2020-03-27 13:02:30] DEBUG 137 statementLog - {conn-10001, pstmt-20049} Types : []
+[2020-03-27 13:02:30] DEBUG 137 statementLog - {conn-10001, pstmt-20049} executed. 2.312485 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:02:30] DEBUG 137 statementLog - {conn-10001, pstmt-20049} closed
+[2020-03-27 13:02:30] DEBUG 137 statementLog - {conn-10001, pstmt-20050} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:02:30] DEBUG 137 statementLog - {conn-10001, pstmt-20050} Parameters : []
+[2020-03-27 13:02:30] DEBUG 137 statementLog - {conn-10001, pstmt-20050} Types : []
+[2020-03-27 13:02:30] DEBUG 137 statementLog - {conn-10001, pstmt-20050} executed. 7.455848 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:02:30] DEBUG 137 statementLog - {conn-10001, pstmt-20050} closed
+[2020-03-27 13:02:32] DEBUG 137 statementLog - {conn-10001, pstmt-20051} created. delete
+        from cartest
+        where carId = ?
+[2020-03-27 13:02:32] DEBUG 137 statementLog - {conn-10001, pstmt-20051} Parameters : [4716]
+[2020-03-27 13:02:32] DEBUG 137 statementLog - {conn-10001, pstmt-20051} Types : [INTEGER]
+[2020-03-27 13:02:32] DEBUG 137 statementLog - {conn-10001, pstmt-20051} executed. 8.91203 millis. delete
+        from cartest
+        where carId = ?
+[2020-03-27 13:02:32] DEBUG 137 statementLog - {conn-10001, pstmt-20051} closed
+[2020-03-27 13:02:34] DEBUG 137 statementLog - {conn-10001, pstmt-20052} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:02:34] DEBUG 137 statementLog - {conn-10001, pstmt-20052} Parameters : []
+[2020-03-27 13:02:34] DEBUG 137 statementLog - {conn-10001, pstmt-20052} Types : []
+[2020-03-27 13:02:34] DEBUG 137 statementLog - {conn-10001, pstmt-20052} executed. 4.418896 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:02:34] DEBUG 137 statementLog - {conn-10001, pstmt-20052} closed
+[2020-03-27 13:02:34] DEBUG 137 statementLog - {conn-10001, pstmt-20053} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:02:34] DEBUG 137 statementLog - {conn-10001, pstmt-20053} Parameters : []
+[2020-03-27 13:02:34] DEBUG 137 statementLog - {conn-10001, pstmt-20053} Types : []
+[2020-03-27 13:02:34] DEBUG 137 statementLog - {conn-10001, pstmt-20053} executed. 3.844615 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:02:34] DEBUG 137 statementLog - {conn-10001, pstmt-20053} closed
+[2020-03-27 13:02:38] DEBUG 137 statementLog - {conn-10001, pstmt-20054} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:02:38] DEBUG 137 statementLog - {conn-10001, pstmt-20054} Parameters : []
+[2020-03-27 13:02:38] DEBUG 137 statementLog - {conn-10001, pstmt-20054} Types : []
+[2020-03-27 13:02:38] DEBUG 137 statementLog - {conn-10001, pstmt-20054} executed. 3.270333 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:02:38] DEBUG 137 statementLog - {conn-10001, pstmt-20054} closed
+[2020-03-27 13:02:38] DEBUG 137 statementLog - {conn-10001, pstmt-20055} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:02:38] DEBUG 137 statementLog - {conn-10001, pstmt-20055} Parameters : []
+[2020-03-27 13:02:38] DEBUG 137 statementLog - {conn-10001, pstmt-20055} Types : []
+[2020-03-27 13:02:38] DEBUG 137 statementLog - {conn-10001, pstmt-20055} executed. 4.819528 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:02:38] DEBUG 137 statementLog - {conn-10001, pstmt-20055} closed
+[2020-03-27 13:06:10] DEBUG 137 statementLog - {conn-10001, pstmt-20056} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:06:10] DEBUG 137 statementLog - {conn-10001, pstmt-20056} Parameters : []
+[2020-03-27 13:06:10] DEBUG 137 statementLog - {conn-10001, pstmt-20056} Types : []
+[2020-03-27 13:06:10] DEBUG 137 statementLog - {conn-10001, pstmt-20056} executed. 4.000771 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:06:10] DEBUG 137 statementLog - {conn-10001, pstmt-20056} closed
+[2020-03-27 13:06:10] DEBUG 137 statementLog - {conn-10001, pstmt-20057} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:06:10] DEBUG 137 statementLog - {conn-10001, pstmt-20057} Parameters : []
+[2020-03-27 13:06:10] DEBUG 137 statementLog - {conn-10001, pstmt-20057} Types : []
+[2020-03-27 13:06:10] DEBUG 137 statementLog - {conn-10001, pstmt-20057} executed. 2.13969 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:06:10] DEBUG 137 statementLog - {conn-10001, pstmt-20057} closed
+[2020-03-27 13:17:58] DEBUG 137 statementLog - {conn-10001, pstmt-20058} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:17:58] DEBUG 137 statementLog - {conn-10001, pstmt-20058} Parameters : []
+[2020-03-27 13:17:58] DEBUG 137 statementLog - {conn-10001, pstmt-20058} Types : []
+[2020-03-27 13:17:58] DEBUG 137 statementLog - {conn-10001, pstmt-20058} executed. 1.697672 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:17:58] DEBUG 137 statementLog - {conn-10001, pstmt-20058} closed
+[2020-03-27 13:17:58] DEBUG 137 statementLog - {conn-10001, pstmt-20059} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:17:58] DEBUG 137 statementLog - {conn-10001, pstmt-20059} Parameters : []
+[2020-03-27 13:17:58] DEBUG 137 statementLog - {conn-10001, pstmt-20059} Types : []
+[2020-03-27 13:17:58] DEBUG 137 statementLog - {conn-10001, pstmt-20059} executed. 3.935493 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:17:58] DEBUG 137 statementLog - {conn-10001, pstmt-20059} closed
+[2020-03-27 13:18:02] DEBUG 137 statementLog - {conn-10001, pstmt-20060} created. delete
+        from cartest
+        where carId = ?
+[2020-03-27 13:18:02] DEBUG 137 statementLog - {conn-10001, pstmt-20060} Parameters : [5456]
+[2020-03-27 13:18:02] DEBUG 137 statementLog - {conn-10001, pstmt-20060} Types : [INTEGER]
+[2020-03-27 13:18:02] DEBUG 137 statementLog - {conn-10001, pstmt-20060} executed. 14.144563 millis. delete
+        from cartest
+        where carId = ?
+[2020-03-27 13:18:02] DEBUG 137 statementLog - {conn-10001, pstmt-20060} closed
+[2020-03-27 13:18:02] DEBUG 137 statementLog - {conn-10001, pstmt-20061} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:18:02] DEBUG 137 statementLog - {conn-10001, pstmt-20061} Parameters : []
+[2020-03-27 13:18:02] DEBUG 137 statementLog - {conn-10001, pstmt-20061} Types : []
+[2020-03-27 13:18:02] DEBUG 137 statementLog - {conn-10001, pstmt-20061} executed. 1.744604 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:18:02] DEBUG 137 statementLog - {conn-10001, pstmt-20061} closed
+[2020-03-27 13:18:02] DEBUG 137 statementLog - {conn-10001, pstmt-20062} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:18:02] DEBUG 137 statementLog - {conn-10001, pstmt-20062} Parameters : []
+[2020-03-27 13:18:02] DEBUG 137 statementLog - {conn-10001, pstmt-20062} Types : []
+[2020-03-27 13:18:02] DEBUG 137 statementLog - {conn-10001, pstmt-20062} executed. 1.559008 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:18:02] DEBUG 137 statementLog - {conn-10001, pstmt-20062} closed
+[2020-03-27 13:25:39] DEBUG 137 statementLog - {conn-10001, pstmt-20063} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:25:39] DEBUG 137 statementLog - {conn-10001, pstmt-20063} Parameters : []
+[2020-03-27 13:25:39] DEBUG 137 statementLog - {conn-10001, pstmt-20063} Types : []
+[2020-03-27 13:25:39] DEBUG 137 statementLog - {conn-10001, pstmt-20063} executed. 2.556534 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:25:39] DEBUG 137 statementLog - {conn-10001, pstmt-20063} closed
+[2020-03-27 13:25:39] DEBUG 137 statementLog - {conn-10001, pstmt-20064} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:25:39] DEBUG 137 statementLog - {conn-10001, pstmt-20064} Parameters : []
+[2020-03-27 13:25:39] DEBUG 137 statementLog - {conn-10001, pstmt-20064} Types : []
+[2020-03-27 13:25:39] DEBUG 137 statementLog - {conn-10001, pstmt-20064} executed. 2.630772 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:25:39] DEBUG 137 statementLog - {conn-10001, pstmt-20064} closed
+[2020-03-27 13:25:52] DEBUG 137 statementLog - {conn-10001, pstmt-20065} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:25:52] DEBUG 137 statementLog - {conn-10001, pstmt-20065} Parameters : []
+[2020-03-27 13:25:52] DEBUG 137 statementLog - {conn-10001, pstmt-20065} Types : []
+[2020-03-27 13:25:52] DEBUG 137 statementLog - {conn-10001, pstmt-20065} executed. 2.320166 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:25:52] DEBUG 137 statementLog - {conn-10001, pstmt-20065} closed
+[2020-03-27 13:25:52] DEBUG 137 statementLog - {conn-10001, pstmt-20066} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:25:52] DEBUG 137 statementLog - {conn-10001, pstmt-20066} Parameters : []
+[2020-03-27 13:25:52] DEBUG 137 statementLog - {conn-10001, pstmt-20066} Types : []
+[2020-03-27 13:25:52] DEBUG 137 statementLog - {conn-10001, pstmt-20066} executed. 1.945987 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 13:25:52] DEBUG 137 statementLog - {conn-10001, pstmt-20066} closed
+[2020-03-27 14:06:47] DEBUG 137 statementLog - {conn-10001, pstmt-20067} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:06:47] DEBUG 137 statementLog - {conn-10001, pstmt-20067} Parameters : []
+[2020-03-27 14:06:47] DEBUG 137 statementLog - {conn-10001, pstmt-20067} Types : []
+[2020-03-27 14:06:47] DEBUG 137 statementLog - {conn-10001, pstmt-20067} executed. 1.584181 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:06:47] DEBUG 137 statementLog - {conn-10001, pstmt-20067} closed
+[2020-03-27 14:06:47] DEBUG 137 statementLog - {conn-10001, pstmt-20068} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:06:47] DEBUG 137 statementLog - {conn-10001, pstmt-20068} Parameters : []
+[2020-03-27 14:06:47] DEBUG 137 statementLog - {conn-10001, pstmt-20068} Types : []
+[2020-03-27 14:06:47] DEBUG 137 statementLog - {conn-10001, pstmt-20068} executed. 1.550049 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:06:47] DEBUG 137 statementLog - {conn-10001, pstmt-20068} closed
+[2020-03-27 14:06:51] DEBUG 137 statementLog - {conn-10001, pstmt-20069} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:06:51] DEBUG 137 statementLog - {conn-10001, pstmt-20069} Parameters : []
+[2020-03-27 14:06:51] DEBUG 137 statementLog - {conn-10001, pstmt-20069} Types : []
+[2020-03-27 14:06:51] DEBUG 137 statementLog - {conn-10001, pstmt-20069} executed. 1.80775 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:06:51] DEBUG 137 statementLog - {conn-10001, pstmt-20069} closed
+[2020-03-27 14:06:51] DEBUG 137 statementLog - {conn-10001, pstmt-20070} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:06:51] DEBUG 137 statementLog - {conn-10001, pstmt-20070} Parameters : []
+[2020-03-27 14:06:51] DEBUG 137 statementLog - {conn-10001, pstmt-20070} Types : []
+[2020-03-27 14:06:51] DEBUG 137 statementLog - {conn-10001, pstmt-20070} executed. 1.707059 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:06:51] DEBUG 137 statementLog - {conn-10001, pstmt-20070} closed
+[2020-03-27 14:07:43] DEBUG 137 statementLog - {conn-10001, pstmt-20071} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:07:43] DEBUG 137 statementLog - {conn-10001, pstmt-20071} Parameters : []
+[2020-03-27 14:07:43] DEBUG 137 statementLog - {conn-10001, pstmt-20071} Types : []
+[2020-03-27 14:07:43] DEBUG 137 statementLog - {conn-10001, pstmt-20071} executed. 2.693064 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:07:43] DEBUG 137 statementLog - {conn-10001, pstmt-20071} closed
+[2020-03-27 14:07:43] DEBUG 137 statementLog - {conn-10001, pstmt-20072} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:07:43] DEBUG 137 statementLog - {conn-10001, pstmt-20072} Parameters : []
+[2020-03-27 14:07:43] DEBUG 137 statementLog - {conn-10001, pstmt-20072} Types : []
+[2020-03-27 14:07:43] DEBUG 137 statementLog - {conn-10001, pstmt-20072} executed. 2.239954 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:07:43] DEBUG 137 statementLog - {conn-10001, pstmt-20072} closed
+[2020-03-27 14:25:38] DEBUG 137 statementLog - {conn-10001, pstmt-20073} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:25:38] DEBUG 137 statementLog - {conn-10001, pstmt-20073} Parameters : []
+[2020-03-27 14:25:38] DEBUG 137 statementLog - {conn-10001, pstmt-20073} Types : []
+[2020-03-27 14:25:38] DEBUG 137 statementLog - {conn-10001, pstmt-20073} executed. 1.851696 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:25:38] DEBUG 137 statementLog - {conn-10001, pstmt-20073} closed
+[2020-03-27 14:25:38] DEBUG 137 statementLog - {conn-10001, pstmt-20074} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:25:38] DEBUG 137 statementLog - {conn-10001, pstmt-20074} Parameters : []
+[2020-03-27 14:25:38] DEBUG 137 statementLog - {conn-10001, pstmt-20074} Types : []
+[2020-03-27 14:25:38] DEBUG 137 statementLog - {conn-10001, pstmt-20074} executed. 2.592801 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:25:38] DEBUG 137 statementLog - {conn-10001, pstmt-20074} closed
+[2020-03-27 14:25:42] DEBUG 137 statementLog - {conn-10001, pstmt-20075} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:25:42] DEBUG 137 statementLog - {conn-10001, pstmt-20075} Parameters : []
+[2020-03-27 14:25:42] DEBUG 137 statementLog - {conn-10001, pstmt-20075} Types : []
+[2020-03-27 14:25:42] DEBUG 137 statementLog - {conn-10001, pstmt-20075} executed. 1.591861 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:25:42] DEBUG 137 statementLog - {conn-10001, pstmt-20075} closed
+[2020-03-27 14:25:42] DEBUG 137 statementLog - {conn-10001, pstmt-20076} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:25:42] DEBUG 137 statementLog - {conn-10001, pstmt-20076} Parameters : []
+[2020-03-27 14:25:42] DEBUG 137 statementLog - {conn-10001, pstmt-20076} Types : []
+[2020-03-27 14:25:42] DEBUG 137 statementLog - {conn-10001, pstmt-20076} executed. 1.153683 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:25:42] DEBUG 137 statementLog - {conn-10001, pstmt-20076} closed
+[2020-03-27 14:26:37] DEBUG 137 statementLog - {conn-10001, pstmt-20077} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:26:37] DEBUG 137 statementLog - {conn-10001, pstmt-20077} Parameters : []
+[2020-03-27 14:26:37] DEBUG 137 statementLog - {conn-10001, pstmt-20077} Types : []
+[2020-03-27 14:26:37] DEBUG 137 statementLog - {conn-10001, pstmt-20077} executed. 1.14899 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:26:37] DEBUG 137 statementLog - {conn-10001, pstmt-20077} closed
+[2020-03-27 14:26:37] DEBUG 137 statementLog - {conn-10001, pstmt-20078} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:26:37] DEBUG 137 statementLog - {conn-10001, pstmt-20078} Parameters : []
+[2020-03-27 14:26:37] DEBUG 137 statementLog - {conn-10001, pstmt-20078} Types : []
+[2020-03-27 14:26:37] DEBUG 137 statementLog - {conn-10001, pstmt-20078} executed. 1.857242 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:26:37] DEBUG 137 statementLog - {conn-10001, pstmt-20078} closed
+[2020-03-27 14:26:43] DEBUG 137 statementLog - {conn-10001, pstmt-20079} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:26:43] DEBUG 137 statementLog - {conn-10001, pstmt-20079} Parameters : []
+[2020-03-27 14:26:43] DEBUG 137 statementLog - {conn-10001, pstmt-20079} Types : []
+[2020-03-27 14:26:43] DEBUG 137 statementLog - {conn-10001, pstmt-20079} executed. 3.111189 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:26:43] DEBUG 137 statementLog - {conn-10001, pstmt-20079} closed
+[2020-03-27 14:26:43] DEBUG 137 statementLog - {conn-10001, pstmt-20080} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:26:43] DEBUG 137 statementLog - {conn-10001, pstmt-20080} Parameters : []
+[2020-03-27 14:26:43] DEBUG 137 statementLog - {conn-10001, pstmt-20080} Types : []
+[2020-03-27 14:26:43] DEBUG 137 statementLog - {conn-10001, pstmt-20080} executed. 5.631884 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:26:43] DEBUG 137 statementLog - {conn-10001, pstmt-20080} closed
+[2020-03-27 14:26:55] DEBUG 137 statementLog - {conn-10001, pstmt-20081} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:26:55] DEBUG 137 statementLog - {conn-10001, pstmt-20081} Parameters : []
+[2020-03-27 14:26:55] DEBUG 137 statementLog - {conn-10001, pstmt-20081} Types : []
+[2020-03-27 14:26:55] DEBUG 137 statementLog - {conn-10001, pstmt-20081} executed. 7.430248 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:26:55] DEBUG 137 statementLog - {conn-10001, pstmt-20081} closed
+[2020-03-27 14:26:55] DEBUG 137 statementLog - {conn-10001, pstmt-20082} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:26:55] DEBUG 137 statementLog - {conn-10001, pstmt-20082} Parameters : []
+[2020-03-27 14:26:55] DEBUG 137 statementLog - {conn-10001, pstmt-20082} Types : []
+[2020-03-27 14:26:55] DEBUG 137 statementLog - {conn-10001, pstmt-20082} executed. 1.698951 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:26:55] DEBUG 137 statementLog - {conn-10001, pstmt-20082} closed
+[2020-03-27 14:27:08] DEBUG 137 statementLog - {conn-10001, pstmt-20083} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:27:08] DEBUG 137 statementLog - {conn-10001, pstmt-20083} Parameters : []
+[2020-03-27 14:27:08] DEBUG 137 statementLog - {conn-10001, pstmt-20083} Types : []
+[2020-03-27 14:27:08] DEBUG 137 statementLog - {conn-10001, pstmt-20083} executed. 1.598688 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:27:08] DEBUG 137 statementLog - {conn-10001, pstmt-20083} closed
+[2020-03-27 14:27:08] DEBUG 137 statementLog - {conn-10001, pstmt-20084} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:27:08] DEBUG 137 statementLog - {conn-10001, pstmt-20084} Parameters : []
+[2020-03-27 14:27:08] DEBUG 137 statementLog - {conn-10001, pstmt-20084} Types : []
+[2020-03-27 14:27:08] DEBUG 137 statementLog - {conn-10001, pstmt-20084} executed. 1.641779 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:27:08] DEBUG 137 statementLog - {conn-10001, pstmt-20084} closed
+[2020-03-27 14:27:20] DEBUG 137 statementLog - {conn-10001, pstmt-20085} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:27:20] DEBUG 137 statementLog - {conn-10001, pstmt-20085} Parameters : []
+[2020-03-27 14:27:20] DEBUG 137 statementLog - {conn-10001, pstmt-20085} Types : []
+[2020-03-27 14:27:20] DEBUG 137 statementLog - {conn-10001, pstmt-20085} executed. 1.647326 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:27:20] DEBUG 137 statementLog - {conn-10001, pstmt-20085} closed
+[2020-03-27 14:27:20] DEBUG 137 statementLog - {conn-10001, pstmt-20086} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:27:20] DEBUG 137 statementLog - {conn-10001, pstmt-20086} Parameters : []
+[2020-03-27 14:27:20] DEBUG 137 statementLog - {conn-10001, pstmt-20086} Types : []
+[2020-03-27 14:27:20] DEBUG 137 statementLog - {conn-10001, pstmt-20086} executed. 1.505676 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:27:20] DEBUG 137 statementLog - {conn-10001, pstmt-20086} closed
+[2020-03-27 14:27:48] DEBUG 137 statementLog - {conn-10001, pstmt-20087} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:27:48] DEBUG 137 statementLog - {conn-10001, pstmt-20087} Parameters : []
+[2020-03-27 14:27:48] DEBUG 137 statementLog - {conn-10001, pstmt-20087} Types : []
+[2020-03-27 14:27:48] DEBUG 137 statementLog - {conn-10001, pstmt-20087} executed. 4.827634 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:27:48] DEBUG 137 statementLog - {conn-10001, pstmt-20087} closed
+[2020-03-27 14:27:48] DEBUG 137 statementLog - {conn-10001, pstmt-20088} created. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:27:48] DEBUG 137 statementLog - {conn-10001, pstmt-20088} Parameters : []
+[2020-03-27 14:27:48] DEBUG 137 statementLog - {conn-10001, pstmt-20088} Types : []
+[2020-03-27 14:27:48] DEBUG 137 statementLog - {conn-10001, pstmt-20088} executed. 2.532215 millis. SELECT
+         
+        carId, carName, ctime, carDesc
+     
+        FROM
+         
+        carTest
+[2020-03-27 14:27:48] DEBUG 137 statementLog - {conn-10001, pstmt-20088} closed

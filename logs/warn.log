@@ -1,0 +1,204 @@
+[2020-03-27 12:11:26] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.jdbc.UncategorizedSQLException: 
+### Error updating database.  Cause: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'( na ni
+            carId, carName,', expect RPAREN, actual IDENTIFIER pos 60, line 5, column 16, token IDENTIFIER ni : insert into
+         
+        carTest
+     
+         ( na ni
+            carId, carName, ctime, carDesc ) 
+         values( ?,
+                    
+                # carNameyiding 不为null，进来之前判断过了
+                ?,
+                
+                        ?,
+                    
+                
+                    ? )
+### The error may exist in file [E:\idea\workspace\demo\target\classes\mybatis\mapper\motoMapper.xml]
+### The error may involve com.example.demo.dao.ICarDao.insertCars
+### The error occurred while executing an update
+### SQL: insert into                   carTest                ( na ni             carId, carName, ctime, carDesc )           values( ?,                                      # carNameyiding 不为null，进来之前判断过了                 ?,                                          ?,                                                           ? )
+### Cause: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'( na ni
+            carId, carName,', expect RPAREN, actual IDENTIFIER pos 60, line 5, column 16, token IDENTIFIER ni : insert into
+         
+        carTest
+     
+         ( na ni
+            carId, carName, ctime, carDesc ) 
+         values( ?,
+                    
+                # carNameyiding 不为null，进来之前判断过了
+                ?,
+                
+                        ?,
+                    
+                
+                    ? )
+; uncategorized SQLException; SQL state [null]; error code [0]; sql injection violation, syntax error: syntax error, error in :'( na ni
+            carId, carName,', expect RPAREN, actual IDENTIFIER pos 60, line 5, column 16, token IDENTIFIER ni : insert into
+         
+        carTest
+     
+         ( na ni
+            carId, carName, ctime, carDesc ) 
+         values( ?,
+                    
+                # carNameyiding 不为null，进来之前判断过了
+                ?,
+                
+                        ?,
+                    
+                
+                    ? ); nested exception is java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'( na ni
+            carId, carName,', expect RPAREN, actual IDENTIFIER pos 60, line 5, column 16, token IDENTIFIER ni : insert into
+         
+        carTest
+     
+         ( na ni
+            carId, carName, ctime, carDesc ) 
+         values( ?,
+                    
+                # carNameyiding 不为null，进来之前判断过了
+                ?,
+                
+                        ?,
+                    
+                
+                    ? )]
+[2020-03-27 12:13:20] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.jdbc.UncategorizedSQLException: 
+### Error updating database.  Cause: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'( na ni
+            carId, carName,', expect RPAREN, actual IDENTIFIER pos 60, line 5, column 16, token IDENTIFIER ni : insert into
+         
+        carTest
+     
+         ( na ni
+            carId, carName, ctime, carDesc ) 
+         values( ?,
+                    
+                ?,
+                
+                        ?,
+                    
+                
+                    ? )
+### The error may exist in file [E:\idea\workspace\demo\target\classes\mybatis\mapper\motoMapper.xml]
+### The error may involve com.example.demo.dao.ICarDao.insertCars
+### The error occurred while executing an update
+### SQL: insert into                   carTest                ( na ni             carId, carName, ctime, carDesc )           values( ?,                                      ?,                                          ?,                                                           ? )
+### Cause: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'( na ni
+            carId, carName,', expect RPAREN, actual IDENTIFIER pos 60, line 5, column 16, token IDENTIFIER ni : insert into
+         
+        carTest
+     
+         ( na ni
+            carId, carName, ctime, carDesc ) 
+         values( ?,
+                    
+                ?,
+                
+                        ?,
+                    
+                
+                    ? )
+; uncategorized SQLException; SQL state [null]; error code [0]; sql injection violation, syntax error: syntax error, error in :'( na ni
+            carId, carName,', expect RPAREN, actual IDENTIFIER pos 60, line 5, column 16, token IDENTIFIER ni : insert into
+         
+        carTest
+     
+         ( na ni
+            carId, carName, ctime, carDesc ) 
+         values( ?,
+                    
+                ?,
+                
+                        ?,
+                    
+                
+                    ? ); nested exception is java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'( na ni
+            carId, carName,', expect RPAREN, actual IDENTIFIER pos 60, line 5, column 16, token IDENTIFIER ni : insert into
+         
+        carTest
+     
+         ( na ni
+            carId, carName, ctime, carDesc ) 
+         values( ?,
+                    
+                ?,
+                
+                        ?,
+                    
+                
+                    ? )]
+[2020-03-27 12:14:40] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'ctime' at row 1
+### The error may exist in file [E:\idea\workspace\demo\target\classes\mybatis\mapper\motoMapper.xml]
+### The error may involve com.example.demo.dao.ICarDao.insertCars-Inline
+### The error occurred while setting parameters
+### SQL: insert into                   carTest                ( carId, carName, ctime, carDesc )           values( ?,                                      ?,                                          ?,                                                           ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'ctime' at row 1
+; Data truncation: Data too long for column 'ctime' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'ctime' at row 1]
+[2020-03-27 12:23:10] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '0' for key 'cartest.PRIMARY'
+### The error may exist in file [E:\idea\workspace\demo\target\classes\mybatis\mapper\motoMapper.xml]
+### The error may involve com.example.demo.dao.ICarDao.insertCars-Inline
+### The error occurred while setting parameters
+### SQL: insert into                   carTest                ( carId, carName, ctime, carDesc )           values( ?,                                      ?,                                          ?,                                                           ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '0' for key 'cartest.PRIMARY'
+; Duplicate entry '0' for key 'cartest.PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '0' for key 'cartest.PRIMARY']
+[2020-03-27 12:26:19] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.jdbc.UncategorizedSQLException: 
+### Error updating database.  Cause: java.sql.SQLException: sql injection violation, syntax error: syntax error. pos 276, line 13, column 25, token EOF : insert into
+         
+        carTest
+     
+         ( carId, carName, ctime, carDesc ) 
+         values( (rand()*10+rand()*10000,
+                    
+                ?,
+                
+                        ?,
+                    
+                
+                    ? )
+### The error may exist in file [E:\idea\workspace\demo\target\classes\mybatis\mapper\motoMapper.xml]
+### The error may involve com.example.demo.dao.ICarDao.insertCars
+### The error occurred while executing an update
+### SQL: insert into                   carTest                ( carId, carName, ctime, carDesc )           values( (rand()*10+rand()*10000,                                      ?,                                          ?,                                                           ? )
+### Cause: java.sql.SQLException: sql injection violation, syntax error: syntax error. pos 276, line 13, column 25, token EOF : insert into
+         
+        carTest
+     
+         ( carId, carName, ctime, carDesc ) 
+         values( (rand()*10+rand()*10000,
+                    
+                ?,
+                
+                        ?,
+                    
+                
+                    ? )
+; uncategorized SQLException; SQL state [null]; error code [0]; sql injection violation, syntax error: syntax error. pos 276, line 13, column 25, token EOF : insert into
+         
+        carTest
+     
+         ( carId, carName, ctime, carDesc ) 
+         values( (rand()*10+rand()*10000,
+                    
+                ?,
+                
+                        ?,
+                    
+                
+                    ? ); nested exception is java.sql.SQLException: sql injection violation, syntax error: syntax error. pos 276, line 13, column 25, token EOF : insert into
+         
+        carTest
+     
+         ( carId, carName, ctime, carDesc ) 
+         values( (rand()*10+rand()*10000,
+                    
+                ?,
+                
+                        ?,
+                    
+                
+                    ? )]

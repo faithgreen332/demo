@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.dao.ICarDao">
+    <sql id="BASE_TABLE">
+        carTest
+    </sql>
+    <sql id="BASE_COLUMN">
+        carId, carName, ctime, carDesc
+    </sql>
+
+    <insert id="insertCars" parameterType="List">
+        insert into
+        <include refid="BASE_TABLE"/>
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            carId, carName, ctime, carDesc
+        </trim>
+        <trim prefix="values(" suffix=")" suffixOverrides=",">
+            <foreach collection="list" item="item" index="index" separator=",">
+                <choose>
+                    <when test="item.carId!=null and item.carId!=''">
+                        #{item.carId,jdbcType=INTEGER},
+                    </when>
+                    <otherwise>
+                        rand()*10+rand()*10000,
+                    </otherwise>
+                </choose>
+                #{item.carName,jdbcType=VARCHAR},
+                <choose>
+                    <when test="item.ctime!=null">
+                        #{item.ctime,jdbcType=VARCHAR},
+                    </when>
+                    <otherwise>
+                        DATE_FORMAT(NOW(),'%Y-%m-%d %H:%I:%s'),
+                    </otherwise>
+                </choose>
+                <if test="item.carDesc!=null">
+                    #{item.carDesc,jdbcType=VARCHAR},
+                </if>
+            </foreach>
+        </trim>
+    </insert>
+    <delete id="deleteCar">
+        delete
+        from cartest
+        where carId = #{carId,jdbcType=INTEGER}
+    </delete>
+
+    <select id="selectCars" resultType="com.example.demo.vo.Car">
+        SELECT
+        <include refid="BASE_COLUMN"/>
+        FROM
+        <include refid="BASE_TABLE"/>
+    </select>
+
+    <select id="selectUserByName" resultType="com.example.demo.vo.Car">
+        SELECT
+        <include refid="BASE_COLUMN"/>
+        FROM
+        <include refid="BASE_TABLE"/>
+        where carName = #{carName,jdbcType=VARCHAR}
+    </select>
+
+    <select id="selectDescByName" resultType="string">
+        select carDesc
+        from cartest
+        where carName = #{carName,jdbcType=VARCHAR}
+    </select>
+
+</mapper>

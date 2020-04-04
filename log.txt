@@ -1,0 +1,200 @@
+springboot 默认日志框架
+    springboot在所有内部日志中使用Commons Logging，但是默认配置也提供了对常用日志的支持，如：Java Util Logging，Log4J，Log4J2和Logback，每种logger都可以通过配置使用控制台或者文件输出日志内容。
+    SLF4J（Simple Logging Facade For Java）是对各个java日志框架的统一Facade抽象。java日志框架众多（常用的有java.util.logging,log4j,logback,commons-logging,Spring框架使用的是Jakarta Commons Logging API(JCL)）.而SLF4J定义了同意的日志抽象接口，而真正的日志实现则是在运行时决定的。
+    logback是log4j框架的作者开发的新一代日志框架，效率更高、能适应诸多的运行环境。
+    默认情况下，Springboot会用logback来记录日志，并用INFO级别输出到控制台：
+    2020-03-20 15:46:10.397  INFO 8844 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18ms. Found 0 JDBC repository interfaces.
+    2020-03-20 15:46:10.414  INFO 8844 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+    内容解释如下：
+    @ 时间日期：精确到毫秒
+    @ 日志级别：ERROR，WARN，INFO，DEBUG or TRACE
+    @ 进程ID
+    @ 分隔符：--- 标识十几日志的开始
+    @ 线程名：方括号括起来（可能会阶段控制台输出）
+    @ logger名：通常使用源码类名
+    @ 日志内容
+
+如何引入日志
+    使用logback日志框架，加入maven依赖
+     <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-logging</artifactId>
+     </dependency>
+
+
+如何配置日志
+      springboot启动的时候，由org.springframework.boot.logging.Logging-Application-Listener根据情况初始化并使用
+      springboot默认输出ERROR、WARN、INFO级别的日志到控制台，如果想输出debug模式，在application
+      .properties中配置debug=true，核心logger（包含嵌入式容器、hibernate、spring）会输出更多内容，但自己的应用的日志并部署输出为DEBUG级别。
+      若想输入日志到文件，需在application.properties中配置：
+      a、logging.file，设置绝对路径或相对路径的日志文件，如logging.file=my.log，
+      b、logging.path，设置目录，会在此目录下输出spring.log文件，并写入日志内容
+      如果同时配置两者，只有logging.path生效
+      默认日志文件达到10M会切分一次
+
+      按包配置日志的级别，在application.properties里加入
+      @ loging.level.xxx=LEVEL (如loging.level.com.faith=DEBUG，则com.faith包下的日志级别为DEBUG，logging.level
+      .root=WARN,则root日志为WARN）
+
+如何自定义日志配置
+     因为日志服务在ApplicationContext创建前就初始化了，不受spring配置文件控制，因此可以通过系统属性和springboot以外的配置文件可以支持日志控制
+     根据不同的日志系统，springboot官方推荐使用带有-spring的文件名作为配置，如此springboot可以添加一些springboot特有的配置项，文件放在src/main
+     /resource下即可
+     如果你想完全掌控日志配置文件配置，在application.properties里加上logging
+     .config=路径和文件名，虽然一般并不需要改变配置文件的名字，但是如果你想针对不同运行Profile使用不同的日志，这个配置会很有用
+
+logpack-spring.xml配置解释
+     见logback-spring.xml
+
+要使用日志，只需要在当前类引用即可
+     private final Logger logger = LoggerFactory.getLogger(this.getClass());
+
+log4j2配置
+    本工程应为要使用阿里的druid连接池，而阿里官方推荐用log4j2日志框架，所有本工程使用log42日志。
+    1.去掉springboot的logback依赖，引入log4j2日志，添加数据库连接池
+        <!--Spring-boot中去掉logback的依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-logging</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!--日志-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-log4j2</artifactId>
+        </dependency>
+
+        <!--数据库连接池-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+            <version>1.1.6</version>
+        </dependency>
+
+    2.配置log4j2.xml
+        <?xml version="1.0" encoding="UTF-8"?>
+        <configuration status="OFF">
+            <appenders>
+
+                <Console name="Console" target="SYSTEM_OUT">
+                    <!--只接受程序中DEBUG级别的日志进行处理-->
+                    <ThresholdFilter level="DEBUG" onMatch="ACCEPT" onMismatch="DENY"/>
+                    <PatternLayout pattern="[%d{HH:mm:ss.SSS}] %-5level %class{36} %L %M - %msg%xEx%n"/>
+                </Console>
+
+                <!--处理DEBUG级别的日志，并把该日志放到logs/debug.log文件中-->
+                <!--打印出DEBUG级别日志，每次大小超过size，则这size大小的日志会自动存入按年份-月份建立的文件夹下面并进行压缩，作为存档-->
+                <RollingFile name="RollingFileDebug" fileName="./logs/debug.log"
+                             filePattern="logs/$${date:yyyy-MM}/debug-%d{yyyy-MM-dd}-%i.log.gz">
+                    <Filters>
+                        <ThresholdFilter level="DEBUG"/>
+                        <ThresholdFilter level="INFO" onMatch="DENY" onMismatch="NEUTRAL"/>
+                    </Filters>
+                    <PatternLayout
+                            pattern="[%d{yyyy-MM-dd HH:mm:ss}] %-5level %class{36} %L %M - %msg%xEx%n"/>
+                    <Policies>
+                        <SizeBasedTriggeringPolicy size="500 MB"/>
+                        <TimeBasedTriggeringPolicy/>
+                    </Policies>
+                </RollingFile>
+
+                <!--处理INFO级别的日志，并把该日志放到logs/info.log文件中-->
+                <RollingFile name="RollingFileInfo" fileName="./logs/info.log"
+                             filePattern="logs/$${date:yyyy-MM}/info-%d{yyyy-MM-dd}-%i.log.gz">
+                    <Filters>
+                        <!--只接受INFO级别的日志，其余的全部拒绝处理-->
+                        <ThresholdFilter level="INFO"/>
+                        <ThresholdFilter level="WARN" onMatch="DENY" onMismatch="NEUTRAL"/>
+                    </Filters>
+                    <PatternLayout
+                            pattern="[%d{yyyy-MM-dd HH:mm:ss}] %-5level %class{36} %L %M - %msg%xEx%n"/>
+                    <Policies>
+                        <SizeBasedTriggeringPolicy size="500 MB"/>
+                        <TimeBasedTriggeringPolicy/>
+                    </Policies>
+                </RollingFile>
+
+                <!--处理WARN级别的日志，并把该日志放到logs/warn.log文件中-->
+                <RollingFile name="RollingFileWarn" fileName="./logs/warn.log"
+                             filePattern="logs/$${date:yyyy-MM}/warn-%d{yyyy-MM-dd}-%i.log.gz">
+                    <Filters>
+                        <ThresholdFilter level="WARN"/>
+                        <ThresholdFilter level="ERROR" onMatch="DENY" onMismatch="NEUTRAL"/>
+                    </Filters>
+                    <PatternLayout
+                            pattern="[%d{yyyy-MM-dd HH:mm:ss}] %-5level %class{36} %L %M - %msg%xEx%n"/>
+                    <Policies>
+                        <SizeBasedTriggeringPolicy size="500 MB"/>
+                        <TimeBasedTriggeringPolicy/>
+                    </Policies>
+                </RollingFile>
+
+                <!--处理error级别的日志，并把该日志放到logs/error.log文件中-->
+                <RollingFile name="RollingFileError" fileName="./logs/error.log"
+                             filePattern="logs/$${date:yyyy-MM}/error-%d{yyyy-MM-dd}-%i.log.gz">
+                    <ThresholdFilter level="ERROR"/>
+                    <PatternLayout
+                            pattern="[%d{yyyy-MM-dd HH:mm:ss}] %-5level %class{36} %L %M - %msg%xEx%n"/>
+                    <Policies>
+                        <SizeBasedTriggeringPolicy size="500 MB"/>
+                        <TimeBasedTriggeringPolicy/>
+                    </Policies>
+                </RollingFile>
+
+                <!--druid的日志记录追加器-->
+                <RollingFile name="druidSqlRollingFile" fileName="./logs/druid-sql.log"
+                             filePattern="logs/$${date:yyyy-MM}/api-%d{yyyy-MM-dd}-%i.log.gz">
+                    <PatternLayout pattern="[%d{yyyy-MM-dd HH:mm:ss}] %-5level %L %M - %msg%xEx%n"/>
+                    <Policies>
+                        <SizeBasedTriggeringPolicy size="500 MB"/>
+                        <TimeBasedTriggeringPolicy/>
+                    </Policies>
+                </RollingFile>
+            </appenders>
+
+            <loggers>
+                <root level="DEBUG">
+                    <appender-ref ref="Console"/>
+                    <appender-ref ref="RollingFileInfo"/>
+                    <appender-ref ref="RollingFileWarn"/>
+                    <appender-ref ref="RollingFileError"/>
+                    <appender-ref ref="RollingFileDebug"/>
+                </root>
+
+                <!--记录druid-sql的记录-->
+                <logger name="druid.sql.Statement" level="debug" additivity="false">
+                    <appender-ref ref="druidSqlRollingFile"/>
+                </logger>
+                <logger name="druid.sql.Statement" level="debug" additivity="false">
+                    <appender-ref ref="druidSqlRollingFile"/>
+                </logger>
+
+                <!--log4j2 自带过滤日志-->
+                <Logger name="org.apache.catalina.startup.DigesterFactory" level="error" />
+                <Logger name="org.apache.catalina.util.LifecycleBase" level="error" />
+                <Logger name="org.apache.coyote.http11.Http11NioProtocol" level="warn" />
+                <logger name="org.apache.sshd.common.util.SecurityUtils" level="warn"/>
+                <Logger name="org.apache.tomcat.util.net.NioSelectorPool" level="warn" />
+                <Logger name="org.crsh.plugin" level="warn" />
+                <logger name="org.crsh.ssh" level="warn"/>
+                <Logger name="org.eclipse.jetty.util.component.AbstractLifeCycle" level="error" />
+                <Logger name="org.hibernate.validator.internal.util.Version" level="warn" />
+                <logger name="org.springframework.boot.actuate.autoconfigure.CrshAutoConfiguration" level="warn"/>
+                <logger name="org.springframework.boot.actuate.endpoint.jmx" level="warn"/>
+                <logger name="org.thymeleaf" level="warn"/>
+            </loggers>
+        </configuration>
+
+    3.在applicaation.properties中配置相关选项
+        # 配置日志输出
+        spring.datasource.druid.filter.slf4j.enabled=true
+        spring.datasource.druid.filter.slf4j.statement-create-after-log-enabled=false
+        spring.datasource.druid.filter.slf4j.statement-close-after-log-enabled=false
+        spring.datasource.druid.filter.slf4j.result-set-open-after-log-enabled=false
+        spring.datasource.druid.filter.slf4j.result-set-close-after-log-enabled=false
