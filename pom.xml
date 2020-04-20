@@ -136,6 +136,11 @@
             <version>1.16.20</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>org.mybatis.generator</groupId>
+            <artifactId>mybatis-generator-maven-plugin</artifactId>
+            <version>1.4.0</version>
+        </dependency>
 
     </dependencies>
 
@@ -144,6 +149,42 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+
+            <plugin>
+                <groupId>org.mybatis.generator</groupId>
+                <artifactId>mybatis-generator-maven-plugin</artifactId>
+                <version>1.4.0</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.mybatis.generator</groupId>
+                        <artifactId>mybatis-generator-core</artifactId>
+                        <version>1.4.0</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>mysql</groupId>
+                        <artifactId>mysql-connector-java</artifactId>
+                        <version>8.0.19</version>
+                    </dependency>
+                </dependencies>
+                <executions>
+                    <execution>
+                        <id>mybatis generator</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <!--允许移动生成文件-->
+                    <verbose>true</verbose>
+                    <!--允许自动覆盖文件-->
+                    <overwrite>true</overwrite>
+                    <configurationFile>
+                        src/main/resources/mybatis-generator.xml
+                    </configurationFile>
+                </configuration>
             </plugin>
 
             <!-- frontend-maven-plugin可以在打包时build react项目，并将build得到的前端页面文件放入指定位置-->

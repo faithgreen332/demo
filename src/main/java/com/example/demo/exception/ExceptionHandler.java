@@ -8,7 +8,6 @@ import com.example.demo.util.Constant;
 
 /**
  * @author lijinfei
- * @Desc
  * @date 2020/3/26 14:45 Version: 1.0
  */
 @RestControllerAdvice
@@ -27,13 +26,4 @@ public class ExceptionHandler {
         logger.error(e.getMessage(), e);
         return jsonObject;
     }
-
-    // @org.springframework.web.bind.annotation.ExceptionHandler(ArithmeticException.class)
-    // public Object handArithmeticException(Exception e) {
-    // JSONObject jsonObject = new JSONObject();
-    // jsonObject.put(Constant.STATUS, 501);
-    // jsonObject.put(Constant.MESSAGE, e.getMessage());
-    // logger.error(e.getMessage(), e);
-    // return jsonObject;
-    // }
 }

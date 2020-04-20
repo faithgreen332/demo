@@ -1,8 +1,8 @@
 package com.example.demo.service;
 
-import java.util.List;
-
 import com.example.demo.vo.User;
+
+import java.util.List;
 
 /**
  * @author Administrator
@@ -10,18 +10,23 @@ import com.example.demo.vo.User;
 public interface IUserService {
     /**
      * 写入单个用户
-     * 
-     * @param user
+     *
+     * @param user user
      */
     void insertUser(User user);
 
+    /**
+     * 查询所有user
+     *
+     * @return users
+     */
     List<User> selectAllUsers();
 
     /**
      * 根据用户名字查找用户
-     * 
-     * @param name
-     * @return
+     *
+     * @param name name
+     * @return User
      */
     User selectUserByName(String name);
 }

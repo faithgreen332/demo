@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.dao.PostMapper">
+    <resultMap id="postResultMap" type="Post">
+        <id property="id" column="post_id" javaType="java.lang.Integer" jdbcType="INTEGER"/>
+        <result property="title" column="post_title" javaType="java.lang.String" jdbcType="VARCHAR"/>
+        <result property="ctime" column="post_ctime" javaType="java.lang.String" jdbcType="VARCHAR"/>
+        <result property="updatedat" column="post_updatedat" javaType="java.lang.String" jdbcType="VARCHAR"/>
+        <result property="vote" column="post_vote" javaType="java.lang.Integer" jdbcType="INTEGER"/>
+        <result property="ext" column="post_ext" javaType="java.lang.String" jdbcType="VARCHAR"/>
+        <association property="author" javaType="Author">
+            <id property="id" column="author_id" javaType="java.lang.Integer" jdbcType="INTEGER"/>
+            <result property="ctime" column="author_ctime" javaType="java.lang.String" jdbcType="VARCHAR"/>
+            <result property="username" column="author_username" javaType="java.lang.String" jdbcType="VARCHAR"/>
+            <result property="userDesc" column="author_userDesc" javaType="java.lang.String" jdbcType="VARCHAR"/>
+        </association>
+        <collection property="commentList" javaType="java.util.ArrayList" ofType="Comment">
+            <id property="id" column="comment_id" javaType="java.lang.Integer" jdbcType="INTEGER"/>
+            <result property="ctime" column="comment_ctime" javaType="java.lang.String" jdbcType="VARCHAR"/>
+            <result property="updatedat" column="comment_updatedat" javaType="java.lang.String" jdbcType="VARCHAR"/>
+            <result property="content" column="comment_content" javaType="java.lang.String" jdbcType="VARCHAR"/>
+            <association property="author" javaType="Author">
+                <id property="id" column="comment_author_id" javaType="java.lang.Integer" jdbcType="INTEGER"/>
+                <result property="ctime" column="comment_author_ctime" javaType="java.lang.String" jdbcType="VARCHAR"/>
+                <result property="username" column="comment_author_username" javaType="java.lang.String"
+                        jdbcType="VARCHAR"/>
+                <result property="userDesc" column="comment_author_userDesc" javaType="java.lang.String"
+                        jdbcType="VARCHAR"/>
+            </association>
+        </collection>
+    </resultMap>
+    <delete id="deleteById">
+        delete from post where id=#{id,jdbcType=INTEGER}
+    </delete>
+
+    <select id="selectAllPosts" resultMap="postResultMap">
+        select distinct
+        p.id as post_id,
+        p.ctime as post_ctime,
+        p.title as post_title,
+        p.ext as post_ext,
+        p.updatedat as post_updatedat,
+        p.vote as post_vote,
+        a.id as author_id,
+        a.ctime as author_ctime,
+        a.username as author_username,
+        a.userDesc as author_userDesc,
+        c.comment_id as comment_id,
+        c.comment_ctime as comment_ctime,
+        c.comment_updatedat as comment_updatedat,
+        c.comment_content as comment_content,
+        c.comment_author_id as comment_author_id,
+        c.comment_author_username as comment_author_username,
+        c.comment_author_ctime as comment_author_ctime,
+        c.comment_author_userDesc as comment_author_userDesc
+        from post p
+        inner join author a
+        on p.authorid = a.id
+        left join (select distinct c.id as comment_id,
+        c.postId as comment_postId,
+        c.ctime as comment_ctime,
+        c.updatedat as comment_updatedat,
+        c.content as comment_content,
+        ca.id as comment_author_id,
+        ca.username as comment_author_username,
+        ca.ctime as comment_author_ctime,
+        ca.userdesc as comment_author_userDesc
+        from comment c
+        inner join author ca
+        on c.authorid = ca.id) c on
+        p.id = c.comment_postId
+    </select>
+    <select id="selectPostById" resultMap="postResultMap">
+        select distinct
+        p.id as post_id,
+        p.ctime as post_ctime,
+        p.title as post_title,
+        p.ext as post_ext,
+        p.updatedat as post_updatedat,
+        p.vote as post_vote,
+        a.id as author_id,
+        a.ctime as author_ctime,
+        a.username as author_username,
+        a.userDesc as author_userDesc,
+        c.comment_id as comment_id,
+        c.comment_ctime as comment_ctime,
+        c.comment_updatedat as comment_updatedat,
+        c.comment_content as comment_content,
+        c.comment_author_id as comment_author_id,
+        c.comment_author_username as comment_author_username,
+        c.comment_author_ctime as comment_author_ctime,
+        c.comment_author_userDesc as comment_author_userDesc
+        from post p
+        inner join author a
+        on p.authorid = a.id
+        left join (select distinct c.id as comment_id,
+        c.postId as comment_postId,
+        c.ctime as comment_ctime,
+        c.updatedat as comment_updatedat,
+        c.content as comment_content,
+        ca.id as comment_author_id,
+        ca.username as comment_author_username,
+        ca.ctime as comment_author_ctime,
+        ca.userdesc as comment_author_userDesc
+        from comment c
+        inner join author ca
+        on c.authorid = ca.id) c on
+        p.id = c.comment_postId
+        where p.id=#{id,jdbcType=INTEGER}
+    </select>
+    <select id="selectPostByAuthorId" resultMap="postResultMap">
+        select distinct
+        p.id as post_id,
+        p.ctime as post_ctime,
+        p.title as post_title,
+        p.ext as post_ext,
+        p.updatedat as post_updatedat,
+        p.vote as post_vote,
+        a.id as author_id,
+        a.ctime as author_ctime,
+        a.username as author_username,
+        a.userDesc as author_userDesc,
+        c.comment_id as comment_id,
+        c.comment_ctime as comment_ctime,
+        c.comment_updatedat as comment_updatedat,
+        c.comment_content as comment_content,
+        c.comment_author_id as comment_author_id,
+        c.comment_author_username as comment_author_username,
+        c.comment_author_ctime as comment_author_ctime,
+        c.comment_author_userDesc as comment_author_userDesc
+        from post p
+        inner join author a
+        on p.authorid = a.id
+        left join (select distinct c.id as comment_id,
+        c.postId as comment_postId,
+        c.ctime as comment_ctime,
+        c.updatedat as comment_updatedat,
+        c.content as comment_content,
+        ca.id as comment_author_id,
+        ca.username as comment_author_username,
+        ca.ctime as comment_author_ctime,
+        ca.userdesc as comment_author_userDesc
+        from comment c
+        inner join author ca
+        on c.authorid = ca.id) c on
+        p.id = c.comment_postId
+        where a.id=#{authorId,jdbcType=INTEGER}
+    </select>
+    <insert id="insertSelective" parameterType="Post">
+        insert into post
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            id,
+            authorid,
+            title,
+            ctime,
+            updatedAt,
+            vote,
+            <if test="post.ext != null">
+                ext,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <choose>
+                <when test="post.id !=null">
+                    #{post.id,jdbcType=INTEGER},
+                </when>
+                <otherwise>
+                    rand()*10+rand()*10000,
+                </otherwise>
+            </choose>
+            #{post.author.id,jdbcType=INTEGER},
+            #{post.title,jdbcType=VARCHAR},
+            <choose>
+                <when test="post.ctime !=null">
+                    #{post.ctime,jdbcType=INTEGER},
+                </when>
+                <otherwise>
+                    DATE_FORMAT(NOW(),'%Y-%m-%d %H:%i:%s'),
+                </otherwise>
+            </choose>
+            <choose>
+                <when test="post.updatedat !=null">
+                    #{post.updatedat,jdbcType=INTEGER},
+                </when>
+                <otherwise>
+                    DATE_FORMAT(NOW(),'%Y-%m-%d %H:%i:%s'),
+                </otherwise>
+            </choose>
+            #{post.vote,jdbcType=INTEGER},
+            <if test="post.ext != null">
+                #{post.ext,jdbcType=VARCHAR},
+            </if>
+        </trim>
+    </insert>
+
+    <update id="updatePost" parameterType="Post">
+        update post
+        <trim prefix="set" suffixOverrides=",">
+            <if test="post.title !=null">
+                title=#{post.title,jdbcType=VARCHAR},
+            </if>
+            <if test="post.author.id !=null">
+                authorid=#{post.author.id,jdbcType=VARCHAR},
+            </if>
+            <choose>
+                <when test="post.ctime!=null">
+                    ctime=#{post.ctime,jdbcType=VARCHAR},
+                </when>
+                <otherwise>
+                    ctime=DATE_FORMAT(NOW(),'%Y-%m-%d %H:%i:%s'),
+                </otherwise>
+            </choose>
+            <choose>
+                <when test="post.updatedAt!=null">
+                    updatedAt=#{post.updatedAt,jdbcType=VARCHAR},
+                </when>
+                <otherwise>
+                    updatedAt=DATE_FORMAT(NOW(),'%Y-%m-%d %H:%i:%s'),
+                </otherwise>
+            </choose>
+            <if test="post.vote!=null">
+                vote=#{post.vote,jdbcType=VARCHAR},
+            </if>
+            <if test="post.ext !=null">
+                ext=#{post.ext,jdbcType=VARCHAR},
+            </if>
+        </trim>
+        where id=#{post.id,jdbcType=VARCHAR}
+    </update>
+</mapper>

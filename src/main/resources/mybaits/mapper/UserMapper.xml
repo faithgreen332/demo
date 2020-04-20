@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.dao.UserMapper">
+  <resultMap id="BaseResultMap" type="com.example.demo.vo.User">
+    <constructor>
+      <idArg column="userId" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="userName" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="userPsw" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="cTime" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="userDesc" javaType="java.lang.String" jdbcType="VARCHAR" />
+    </constructor>
+  </resultMap>
+  <sql id="Base_Column_List">
+    userId, userName, userPsw, cTime, userDesc
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 'true' as QUERYID,
+    <include refid="Base_Column_List" />
+    from userForReact
+    where userId = #{userid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from userForReact
+    where userId = #{userid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.example.demo.vo.User">
+    insert into userForReact (userId, userName, userPsw, 
+      cTime, userDesc)
+    values (#{userid,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, #{userpsw,jdbcType=VARCHAR}, 
+      #{ctime,jdbcType=VARCHAR}, #{userdesc,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.example.demo.vo.User">
+    insert into userForReact
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="userid != null">
+        userId,
+      </if>
+      <if test="username != null">
+        userName,
+      </if>
+      <if test="userpsw != null">
+        userPsw,
+      </if>
+      <if test="ctime != null">
+        cTime,
+      </if>
+      <if test="userdesc != null">
+        userDesc,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="userid != null">
+        #{userid,jdbcType=INTEGER},
+      </if>
+      <if test="username != null">
+        #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="userpsw != null">
+        #{userpsw,jdbcType=VARCHAR},
+      </if>
+      <if test="ctime != null">
+        #{ctime,jdbcType=VARCHAR},
+      </if>
+      <if test="userdesc != null">
+        #{userdesc,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.example.demo.vo.User">
+    update userForReact
+    <set>
+      <if test="username != null">
+        userName = #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="userpsw != null">
+        userPsw = #{userpsw,jdbcType=VARCHAR},
+      </if>
+      <if test="ctime != null">
+        cTime = #{ctime,jdbcType=VARCHAR},
+      </if>
+      <if test="userdesc != null">
+        userDesc = #{userdesc,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where userId = #{userid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.example.demo.vo.User">
+    update userForReact
+    set userName = #{username,jdbcType=VARCHAR},
+      userPsw = #{userpsw,jdbcType=VARCHAR},
+      cTime = #{ctime,jdbcType=VARCHAR},
+      userDesc = #{userdesc,jdbcType=VARCHAR}
+    where userId = #{userid,jdbcType=INTEGER}
+  </update>
+  <resultMap id="BaseResultMap" type="com.example.demo.vo.User">
+    <constructor>
+      <idArg column="userId" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="userName" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="userPsw" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="cTime" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="userDesc" javaType="java.lang.String" jdbcType="VARCHAR" />
+    </constructor>
+  </resultMap>
+  <sql id="Base_Column_List">
+    userId, userName, userPsw, cTime, userDesc
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 'true' as QUERYID,
+    <include refid="Base_Column_List" />
+    from userForReact
+    where userId = #{userid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from userForReact
+    where userId = #{userid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.example.demo.vo.User">
+    insert into userForReact (userId, userName, userPsw, 
+      cTime, userDesc)
+    values (#{userid,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, #{userpsw,jdbcType=VARCHAR}, 
+      #{ctime,jdbcType=VARCHAR}, #{userdesc,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.example.demo.vo.User">
+    insert into userForReact
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="userid != null">
+        userId,
+      </if>
+      <if test="username != null">
+        userName,
+      </if>
+      <if test="userpsw != null">
+        userPsw,
+      </if>
+      <if test="ctime != null">
+        cTime,
+      </if>
+      <if test="userdesc != null">
+        userDesc,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="userid != null">
+        #{userid,jdbcType=INTEGER},
+      </if>
+      <if test="username != null">
+        #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="userpsw != null">
+        #{userpsw,jdbcType=VARCHAR},
+      </if>
+      <if test="ctime != null">
+        #{ctime,jdbcType=VARCHAR},
+      </if>
+      <if test="userdesc != null">
+        #{userdesc,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.example.demo.vo.User">
+    update userForReact
+    <set>
+      <if test="username != null">
+        userName = #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="userpsw != null">
+        userPsw = #{userpsw,jdbcType=VARCHAR},
+      </if>
+      <if test="ctime != null">
+        cTime = #{ctime,jdbcType=VARCHAR},
+      </if>
+      <if test="userdesc != null">
+        userDesc = #{userdesc,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where userId = #{userid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.example.demo.vo.User">
+    update userForReact
+    set userName = #{username,jdbcType=VARCHAR},
+      userPsw = #{userpsw,jdbcType=VARCHAR},
+      cTime = #{ctime,jdbcType=VARCHAR},
+      userDesc = #{userdesc,jdbcType=VARCHAR}
+    where userId = #{userid,jdbcType=INTEGER}
+  </update>
+</mapper>

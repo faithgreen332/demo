@@ -1,204 +1,63 @@
-[2020-03-27 12:11:26] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.jdbc.UncategorizedSQLException: 
-### Error updating database.  Cause: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'( na ni
-            carId, carName,', expect RPAREN, actual IDENTIFIER pos 60, line 5, column 16, token IDENTIFIER ni : insert into
-         
-        carTest
-     
-         ( na ni
-            carId, carName, ctime, carDesc ) 
-         values( ?,
-                    
-                # carNameyiding 不为null，进来之前判断过了
-                ?,
-                
-                        ?,
-                    
-                
-                    ? )
-### The error may exist in file [E:\idea\workspace\demo\target\classes\mybatis\mapper\motoMapper.xml]
-### The error may involve com.example.demo.dao.ICarDao.insertCars
-### The error occurred while executing an update
-### SQL: insert into                   carTest                ( na ni             carId, carName, ctime, carDesc )           values( ?,                                      # carNameyiding 不为null，进来之前判断过了                 ?,                                          ?,                                                           ? )
-### Cause: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'( na ni
-            carId, carName,', expect RPAREN, actual IDENTIFIER pos 60, line 5, column 16, token IDENTIFIER ni : insert into
-         
-        carTest
-     
-         ( na ni
-            carId, carName, ctime, carDesc ) 
-         values( ?,
-                    
-                # carNameyiding 不为null，进来之前判断过了
-                ?,
-                
-                        ?,
-                    
-                
-                    ? )
-; uncategorized SQLException; SQL state [null]; error code [0]; sql injection violation, syntax error: syntax error, error in :'( na ni
-            carId, carName,', expect RPAREN, actual IDENTIFIER pos 60, line 5, column 16, token IDENTIFIER ni : insert into
-         
-        carTest
-     
-         ( na ni
-            carId, carName, ctime, carDesc ) 
-         values( ?,
-                    
-                # carNameyiding 不为null，进来之前判断过了
-                ?,
-                
-                        ?,
-                    
-                
-                    ? ); nested exception is java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'( na ni
-            carId, carName,', expect RPAREN, actual IDENTIFIER pos 60, line 5, column 16, token IDENTIFIER ni : insert into
-         
-        carTest
-     
-         ( na ni
-            carId, carName, ctime, carDesc ) 
-         values( ?,
-                    
-                # carNameyiding 不为null，进来之前判断过了
-                ?,
-                
-                        ?,
-                    
-                
-                    ? )]
-[2020-03-27 12:13:20] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.jdbc.UncategorizedSQLException: 
-### Error updating database.  Cause: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'( na ni
-            carId, carName,', expect RPAREN, actual IDENTIFIER pos 60, line 5, column 16, token IDENTIFIER ni : insert into
-         
-        carTest
-     
-         ( na ni
-            carId, carName, ctime, carDesc ) 
-         values( ?,
-                    
-                ?,
-                
-                        ?,
-                    
-                
-                    ? )
-### The error may exist in file [E:\idea\workspace\demo\target\classes\mybatis\mapper\motoMapper.xml]
-### The error may involve com.example.demo.dao.ICarDao.insertCars
-### The error occurred while executing an update
-### SQL: insert into                   carTest                ( na ni             carId, carName, ctime, carDesc )           values( ?,                                      ?,                                          ?,                                                           ? )
-### Cause: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'( na ni
-            carId, carName,', expect RPAREN, actual IDENTIFIER pos 60, line 5, column 16, token IDENTIFIER ni : insert into
-         
-        carTest
-     
-         ( na ni
-            carId, carName, ctime, carDesc ) 
-         values( ?,
-                    
-                ?,
-                
-                        ?,
-                    
-                
-                    ? )
-; uncategorized SQLException; SQL state [null]; error code [0]; sql injection violation, syntax error: syntax error, error in :'( na ni
-            carId, carName,', expect RPAREN, actual IDENTIFIER pos 60, line 5, column 16, token IDENTIFIER ni : insert into
-         
-        carTest
-     
-         ( na ni
-            carId, carName, ctime, carDesc ) 
-         values( ?,
-                    
-                ?,
-                
-                        ?,
-                    
-                
-                    ? ); nested exception is java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'( na ni
-            carId, carName,', expect RPAREN, actual IDENTIFIER pos 60, line 5, column 16, token IDENTIFIER ni : insert into
-         
-        carTest
-     
-         ( na ni
-            carId, carName, ctime, carDesc ) 
-         values( ?,
-                    
-                ?,
-                
-                        ?,
-                    
-                
-                    ? )]
-[2020-03-27 12:14:40] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.dao.DataIntegrityViolationException: 
-### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'ctime' at row 1
-### The error may exist in file [E:\idea\workspace\demo\target\classes\mybatis\mapper\motoMapper.xml]
-### The error may involve com.example.demo.dao.ICarDao.insertCars-Inline
+[2020-04-20 15:26:08] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 15:28:10] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 15:31:50] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 15:33:38] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 15:34:11] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 15:36:45] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 15:36:50] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.Object com.example.demo.controller.PostController.post(com.alibaba.fastjson.JSONObject)]
+[2020-04-20 15:38:06] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 15:38:10] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.Object com.example.demo.controller.PostController.post(com.alibaba.fastjson.JSONObject)]
+[2020-04-20 15:38:15] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 15:41:12] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 15:42:12] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 15:42:43] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 15:43:05] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 15:43:35] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 15:48:24] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 15:48:34] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 15:49:47] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 15:54:47] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 15:55:58] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 15:56:42] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 16:00:05] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 16:03:07] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 16:03:47] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 16:07:17] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 16:07:21] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 16:08:06] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 16:08:16] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 16:11:52] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 16:14:26] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 16:57:48] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [com.alibaba.fastjson.JSONException: can not cast to JSONObject.]
+[2020-04-20 18:25:42] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'commentList' in 'class com.example.demo.vo.Post']
+[2020-04-20 18:25:52] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'commentList' in 'class com.example.demo.vo.Post']
+[2020-04-20 18:56:28] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'c.postId' in 'on clause'
+### The error may exist in file [/home/ljf/gitRepositories/demo/target/classes/mybatis/mapper/postMapper.xml]
+### The error may involve defaultParameterMap
 ### The error occurred while setting parameters
-### SQL: insert into                   carTest                ( carId, carName, ctime, carDesc )           values( ?,                                      ?,                                          ?,                                                           ? )
-### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'ctime' at row 1
-; Data truncation: Data too long for column 'ctime' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'ctime' at row 1]
-[2020-03-27 12:23:10] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.dao.DuplicateKeyException: 
-### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '0' for key 'cartest.PRIMARY'
-### The error may exist in file [E:\idea\workspace\demo\target\classes\mybatis\mapper\motoMapper.xml]
-### The error may involve com.example.demo.dao.ICarDao.insertCars-Inline
+### SQL: select distinct         p.id as post_id,         p.ctime as post_ctime,         p.title as post_title,         p.ext as post_ext,         p.updatedat as post_updatedat,         p.vote as post_vote,         a.id as author_id,         a.ctime as author_ctime,         a.username as author_username,         a.userDesc as author_userDesc,         c.comment_id as comment_id,         c.comment_ctime as comment_ctime,         c.comment_updatedat as comment_updatedat,         c.comment_content as comment_content,         c.comment_author_id as comment_author_id,         c.comment_author_username as comment_author_username,         c.comment_author_ctime as comment_author_ctime,         c.comment_author_userDesc as comment_author_userDesc         from post p         inner join author a         on p.authorid = a.id         left join (select distinct c.id as comment_id,         c.ctime as comment_ctime,         c.updatedat as comment_updatedat,         c.content as comment_content,         ca.id as comment_author_id,         ca.username as comment_author_username,         ca.ctime as comment_author_ctime,         ca.userdesc as comment_author_userDesc         from comment c         inner join author ca         on c.authorid = ca.id) c on         p.id = c.postId
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'c.postId' in 'on clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'c.postId' in 'on clause']
+[2020-04-20 18:59:05] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 19:01:04] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 19:01:47] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present]
+[2020-04-20 19:05:59] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.binding.BindingException: Parameter 'comment' not found. Available parameters are [id, param1]]
+[2020-04-20 19:06:44] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.binding.BindingException: Parameter 'comment' not found. Available parameters are [id, param1]]
+[2020-04-20 19:10:20] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'mysql.Comment' doesn't exist
+### The error may exist in file [/home/ljf/gitRepositories/demo/target/classes/mybatis/mapper/commentMapper.xml]
+### The error may involve defaultParameterMap
 ### The error occurred while setting parameters
-### SQL: insert into                   carTest                ( carId, carName, ctime, carDesc )           values( ?,                                      ?,                                          ?,                                                           ? )
-### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '0' for key 'cartest.PRIMARY'
-; Duplicate entry '0' for key 'cartest.PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '0' for key 'cartest.PRIMARY']
-[2020-03-27 12:26:19] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.jdbc.UncategorizedSQLException: 
-### Error updating database.  Cause: java.sql.SQLException: sql injection violation, syntax error: syntax error. pos 276, line 13, column 25, token EOF : insert into
-         
-        carTest
-     
-         ( carId, carName, ctime, carDesc ) 
-         values( (rand()*10+rand()*10000,
-                    
-                ?,
-                
-                        ?,
-                    
-                
-                    ? )
-### The error may exist in file [E:\idea\workspace\demo\target\classes\mybatis\mapper\motoMapper.xml]
-### The error may involve com.example.demo.dao.ICarDao.insertCars
-### The error occurred while executing an update
-### SQL: insert into                   carTest                ( carId, carName, ctime, carDesc )           values( (rand()*10+rand()*10000,                                      ?,                                          ?,                                                           ? )
-### Cause: java.sql.SQLException: sql injection violation, syntax error: syntax error. pos 276, line 13, column 25, token EOF : insert into
-         
-        carTest
-     
-         ( carId, carName, ctime, carDesc ) 
-         values( (rand()*10+rand()*10000,
-                    
-                ?,
-                
-                        ?,
-                    
-                
-                    ? )
-; uncategorized SQLException; SQL state [null]; error code [0]; sql injection violation, syntax error: syntax error. pos 276, line 13, column 25, token EOF : insert into
-         
-        carTest
-     
-         ( carId, carName, ctime, carDesc ) 
-         values( (rand()*10+rand()*10000,
-                    
-                ?,
-                
-                        ?,
-                    
-                
-                    ? ); nested exception is java.sql.SQLException: sql injection violation, syntax error: syntax error. pos 276, line 13, column 25, token EOF : insert into
-         
-        carTest
-     
-         ( carId, carName, ctime, carDesc ) 
-         values( (rand()*10+rand()*10000,
-                    
-                ?,
-                
-                        ?,
-                    
-                
-                    ? )]
+### SQL: select c.id as comment_id,         c.postId as comment_postId,         c.ctime as comment_ctime,         c.updatedat as comment_updatedat,         c.content as comment_content,         a.id as author_id,         a.username as author_username,         a.userDesc as author_userDesc,         a.ctime as author_ctime         from Comment c         inner join Author a         on c.authorid = a.id         where c.postId = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'mysql.Comment' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'mysql.Comment' doesn't exist]
+[2020-04-20 19:12:07] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'mysql.Author' doesn't exist
+### The error may exist in file [/home/ljf/gitRepositories/demo/target/classes/mybatis/mapper/commentMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select c.id as comment_id,         c.postId as comment_postId,         c.ctime as comment_ctime,         c.updatedat as comment_updatedat,         c.content as comment_content,         a.id as author_id,         a.username as author_username,         a.userDesc as author_userDesc,         a.ctime as author_ctime         from comment c         inner join Author a         on c.authorid = a.id         where c.postId = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'mysql.Author' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'mysql.Author' doesn't exist]
+[2020-04-20 19:14:22] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 199 logException - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 5]

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.dao.AuthorMapper">
+    <resultMap id="BaseResultMap" type="Author">
+        <constructor>
+            <arg column="id" javaType="java.lang.Integer" jdbcType="INTEGER"/>
+            <arg column="username" javaType="java.lang.String" jdbcType="VARCHAR"/>
+            <arg column="ctime" javaType="java.lang.String" jdbcType="VARCHAR"/>
+            <arg column="userDesc" javaType="java.lang.String" jdbcType="VARCHAR"/>
+        </constructor>
+    </resultMap>
+    <insert id="insertSelective" parameterType="Author">
+        insert into author
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="author.id != null">
+                id,
+            </if>
+            <if test="author.username != null">
+                username,
+            </if>
+            <if test="author.ctime != null">
+                ctime,
+            </if>
+            <if test="author.userdesc != null">
+                userDesc,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="author.id != null">
+                #{author.id,jdbcType=INTEGER},
+            </if>
+            <if test="author.username != null">
+                #{author.username,jdbcType=VARCHAR},
+            </if>
+            <if test="author.ctime != null">
+                #{author.ctime,jdbcType=VARCHAR},
+            </if>
+            <if test="author.userdesc != null">
+                #{author.userdesc,jdbcType=VARCHAR},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateAuthor">
+        update author
+        <trim prefix="set" suffixOverrides=",">
+            <if test="author.username !=null">
+                username=#{author.username,jdbcType=VARCHAR},
+            </if>
+            <choose>
+                <when test="author.ctime!=null">
+                    ctime=#{author.ctime,jdbcType=VARCHAR},
+                </when>
+                <otherwise>
+                    ctime=DATE_FORMAT(NOW(),'%Y-%m-%d %H:%i:%s'),
+                </otherwise>
+            </choose>
+            <if test="author.userDesc !=null">
+                userDesc=#{author.userDesc,jdbcType=VARCHAR},
+            </if>
+        </trim>
+        where id=#{author.id,jdbcType=INTEGER}
+    </update>
+    <delete id="deleteAuthor">
+        delete from author where id = #{id,jdbcType=INTEGER}
+    </delete>
+    <select id="selectAllAuthors" resultType="Author">
+        select id, username, ctime,
+        userDesc from author;
+    </select>
+    <select id="selectAuthorById" resultType="Author">
+        select id,username,ctime,userDesc from author where id = #{id,jdbcType=INTEGER}
+    </select>
+</mapper>

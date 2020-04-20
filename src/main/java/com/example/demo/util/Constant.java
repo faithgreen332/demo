@@ -12,5 +12,5 @@ public interface Constant {
     String MESSAGE = "message";
 
     int OK_CODE = 0;
-    int NOT_OK_CODE = 0;
+    int NOT_OK_CODE = 1;
 }

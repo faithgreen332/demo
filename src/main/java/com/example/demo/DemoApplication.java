@@ -13,6 +13,7 @@ import org.springframework.context.annotation.ImportResource;
 @ImportResource(locations = {"classpath:druidBeans.xml"})
 public class DemoApplication {
     public static void main(String[] args) {
+//        System.setProperty("tomcat.util.http.parser.HttpParser.requestTargetAllow", "|{}");
         SpringApplication.run(DemoApplication.class, args);
     }
 }

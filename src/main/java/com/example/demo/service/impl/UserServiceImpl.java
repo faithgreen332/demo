@@ -1,19 +1,21 @@
 package com.example.demo.service.impl;
 
-import java.util.List;
-
-import org.springframework.stereotype.Service;
-import com.example.demo.dao.IUserDao;
+import com.example.demo.dao.UserMapper;
 import com.example.demo.service.IUserService;
 import com.example.demo.vo.User;
+import org.springframework.stereotype.Service;
+
+import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * @author Administrator
  */
-@Service("userService")
+@Service("userServiceImpl")
 public class UserServiceImpl implements IUserService {
 
-    private IUserDao iUserDao;
+    @Resource
+    private UserMapper iUserDao;
 
     @Override
     public void insertUser(User user) {

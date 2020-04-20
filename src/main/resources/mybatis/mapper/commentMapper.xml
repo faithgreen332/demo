@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.dao.CommentMapper">
+    <resultMap id="BaseResultMap" type="Comment">
+        <id property="id" column="comment_id" javaType="java.lang.Integer" jdbcType="INTEGER"/>
+        <result property="postId" column="comment_postId" javaType="java.lang.Integer" jdbcType="INTEGER"/>
+        <result property="ctime" column="comment_ctime" javaType="java.lang.String" jdbcType="VARCHAR"/>
+        <result property="updatedat" column="comment_updatedat" javaType="java.lang.String" jdbcType="VARCHAR"/>
+        <result property="content" column="comment_content" javaType="java.lang.String" jdbcType="VARCHAR"/>
+        <association property="author" javaType="Author">
+            <id property="id" column="author_id" javaType="java.lang.Integer" jdbcType="INTEGER"/>
+            <result property="ctime" column="author_ctime" javaType="java.lang.String" jdbcType="VARCHAR"/>
+            <result property="username" column="author_username" javaType="java.lang.String" jdbcType="VARCHAR"/>
+            <result property="userDesc" column="author_userDesc" javaType="java.lang.String" jdbcType="VARCHAR"/>
+        </association>
+    </resultMap>
+    <insert id="insertSelective" parameterType="Comment">
+        insert into comment
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            id,
+            postId,
+            authorid,
+            ctime,
+            updatedAt,
+            content,
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <choose>
+                <when test="comment.id !=null">
+                    #{comment.id,jdbcType=INTEGER},
+                </when>
+                <otherwise>
+                    rand()*10+rand()*1000000,
+                </otherwise>
+            </choose>
+            <choose>
+                <when test="comment.postId !=null">
+                    #{comment.postId,jdbcType=INTEGER},
+                </when>
+                <otherwise>
+                    rand()*10+rand()*1000000,
+                </otherwise>
+            </choose>
+            #{comment.author.id,jdbcType=INTEGER},
+            <choose>
+                <when test="comment.ctime!=null and comment.ctime !=''">
+                    #{comment.ctime,jdbcType=VARCHAR},
+                </when>
+                <otherwise>
+                    DATE_FORMAT(NOW(),'%Y-%m-%d %H:%i:%s'),
+                </otherwise>
+            </choose>
+            <choose>
+                <when test="comment.updatedAt!=null and comment.updatedAt !=''">
+                    #{comment.updatedAt,jdbcType=VARCHAR},
+                </when>
+                <otherwise>
+                    DATE_FORMAT(NOW(),'%Y-%m-%d %H:%i:%s'),
+                </otherwise>
+            </choose>
+            #{comment.content,jdbcType=VARCHAR},
+        </trim>
+    </insert>
+
+    <delete id="deleteById" parameterType="java.lang.Integer">
+        delete from comment where id = #{id,jdbcType=INTEGER}
+    </delete>
+
+    <update id="updateComment" parameterType="Comment">
+        update comment
+        <trim suffixOverrides="," prefix="set">
+            <if test="comment.postId !=null and comment.postId!=0">
+                postId=#{comment.postId,jdbcType=INTEGER}
+            </if>
+            <choose>
+                <when test="comment.ctime !=null">
+                    ctime=#{comment.ctime,jdbcType=VARCHAR},
+                </when>
+                <otherwise>
+                    ctime=DATE_FORMAT(NOW(),'%Y-%m-%d %H:%i:%s'),
+                </otherwise>
+            </choose>
+            <choose>
+                <when test="comment.updatedat !=null">
+                    updatedat=#{comment.updatedat,jdbcType=VARCHAR},
+                </when>
+                <otherwise>
+                    updatedat=DATE_FORMAT(NOW(),'%Y-%m-%d %H:%i:%s'),
+                </otherwise>
+            </choose>
+            <if test="comment.content !=null">
+                content=#{comment.content,jdbcType=VARCHAR},
+            </if>
+        </trim>
+        where id=#{comment.id,jdbcType=INTEGER}
+    </update>
+
+    <select id="selectAllComments" resultMap="BaseResultMap">
+        select c.id as comment_id,
+        select c.postId as comment_postId,
+        c.ctime as comment_ctime,
+        c.updatedat as comment_updatedat,
+        c.content as comment_content,
+        a.id as author_id,
+        a.username as author_username,
+        a.userDesc as author_userDesc,
+        a.ctime as author_ctime
+        from comment c
+        inner join author a
+        on c.authorid = a.id
+    </select>
+
+    <select id="selectCommentByPostId" resultMap="BaseResultMap">
+        select c.id as comment_id,
+        c.postId as comment_postId,
+        c.ctime as comment_ctime,
+        c.updatedat as comment_updatedat,
+        c.content as comment_content,
+        a.id as author_id,
+        a.username as author_username,
+        a.userDesc as author_userDesc,
+        a.ctime as author_ctime
+        from comment c
+        inner join author a
+        on c.authorid = a.id
+        where c.postId = #{postId,jdbcType=INTEGER}
+    </select>
+    <select id="selectCommentByAuthorId" resultMap="BaseResultMap">
+        select c.id as comment_id,
+        select c.postId as comment_postId,
+        c.ctime as comment_ctime,
+        c.updatedat as comment_updatedat,
+        c.content as comment_content,
+        a.id as author_id,
+        a.username as author_username,
+        a.userDesc as author_userDesc,
+        a.ctime as author_ctime
+        from Comment c
+        inner join author a
+        on c.authorid = a.id
+        where a.id = #{id,jdbcType=INTEGER}
+    </select>
+</mapper>
